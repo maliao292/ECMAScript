@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script>
+			function Rectangle() {
+				// ...
+			}
+			var rec = new Rectangle();
+			Object.getPrototypeOf(rec) === Rectangle.prototype
+			// true
+			Object.setPrototypeOf(rec, Object.prototype);
+			//			Object.getPrototypeOf(rec) === Rectangle.prototype
+			console.log(Object.getPrototypeOf(rec))
+		</script>
+	</body>
+
+</html>

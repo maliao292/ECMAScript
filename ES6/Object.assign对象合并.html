@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+//			Object.assign 方法用于对象的合并   数组不实用
+			
+			
+			let t = {a:1};
+			let b = {b:2};
+			let c = {c:3};
+			Object.assign(t,c,b)
+			console.log(t);
+//			{a: 1, c: 3, b: 2}
+			
+			
+			let f = [1];
+			let h = [2,6,5,9,7,8,9];
+			let g = [6];
+			let k = 'asfka'
+		let i =	Object.assign({},f,k,g,h);
+			console.log(i)
+		</script>
+	</body>
+</html>

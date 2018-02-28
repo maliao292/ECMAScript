@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let m = new Map();
+    let o = {p: 'Hello World'};
+    m.set(o, 'content')
+    console.log(m.get(o))
+    //    TODO   map.size // 1
+    //    TODO    map.has('o') // true
+    //    TODO    map.get('o') // "content"
+    //    TODO   map.has('title') // false
+    var map = new Map([
+        ['name', '张三'],
+        ['title', 'Author']
+    ]);
+    
+    console.log( map);
+    console.log( map.size );// 2
+    console.log( map.has('name')); // true
+    console.log( map.get('name') );// "张三"
+    console.log( map.has('title') );// true
+    console.log( map.get('title') );// "Author"
+    
+    //TODO 转化成数组
+    var a = [...map];
+    console.log(a);
+    
+    // TODO keys() ：返回键名的遍历器。
+    for (let key of map.keys()) {
+        console.log(key);
+    }
+    // TODO values() ：返回键值的遍历器。
+    for (let value of map.values()) {
+        console.log(value);
+    }
+    
+    // TODO entries() ：返回所有成员的遍历器。
+    for (let item of map.entries()) {
+        console.log(item[0], item[1]);
+    }
+    for (let [key, value] of map.entries()) {
+        console.log(key, value);
+    }
+    // TODO forEach() ：遍历Map的所有成员。
+    map.forEach(function (k,v,m) {
+        console.log(k+':'+v)
+        console.log(m)
+    })
+</script>
+</body>
+</html>

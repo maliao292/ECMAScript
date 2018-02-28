@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			var obj = {
+				['b' + 'c']: 5
+			}
+			// 方法一
+			obj.foo = true;
+			// 方法二
+			obj['a' + 'bc'] = 123;
+
+			console.log(obj.abc)
+			console.log(obj.bc)
+
+			let lastWord = 'last word';
+			let a = {
+				'first word': 'hello',
+				[lastWord]: 'word'
+			}
+			console.log(a['first word']);
+			console.log(a[lastWord]);
+			console.log(a['last word'])
+			//不能同时使用 会报错
+			/*
+			 	var foo = 'bar';
+						var bar = 'abc';
+						var baz = {
+							[foo]
+						};
+						// 正确
+						var foo = 'bar';
+						var baz = {
+							[foo]: 'abc'
+						};
+			 * */
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var str = "sdwprwqsjxg";
+    var json = {};
+    for (var i = 0, l = str.length; i < l; i++) {
+        json[str[i]] = (json[str[i]] + 1) || 1;
+        if(json[str[i]] == 2){
+            alert(str[i]);//-> 第一个重复的为w
+            break;//-> 找到后退出循环
+        }
+    }
+</script>
+</body>
+</html>

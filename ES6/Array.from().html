@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style>
+		li {
+			list-style-type: disc
+		}
+	</style>
+
+	<body>
+		<ul>
+			<li>1s</li>
+			<li>2s</li>
+			<li>3s</li>
+			<li>4s</li>
+			<li>5s</li>
+			<li>6s</li>
+		</ul>
+		<script>
+			let arrayLike = {
+				'0': 'a',
+				'1': 'b',
+				'2': 'c',
+				length: 3
+			};
+			
+			
+			let arr = ['a','b']
+			
+			console.log([...arr])
+			
+			
+			console.log([].slice.call(arrayLike, 1, 2))
+			console.log([].slice.apply(arrayLike, [1, 2]))
+			console.log(Array.from(arrayLike))
+
+			let li = document.getElementsByTagName('li');
+			console.log(Array.from(li, s => s.innerHTML));
+			
+			let name = 'maliao';
+			console.log(Array.from(name).reverse().join(''))
+			
+			
+			
+			let str = ['maliao','haoran'];
+			console.log(str.join(','))
+		</script>
+	</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    *TODO   add(value) ：添加某个值，返回Set结构本身。
+     TODO   delete(value) ：删除某个值，返回一个布尔值，表示删除是否成功。
+     TODO   has(value) ：返回一个布尔值，表示该值是否为 Set 的成员。
+     TODO   clear() ：清除所有成员，没有返回值。
+    * **/
+
+    /*TODO
+    *TODO    keys() ：返回键名的遍历器
+    *TODO    values() ：返回键值的遍历器
+    *TODO    entries() ：返回键值对的遍历器
+    *TODO    forEach() ：使用回调函数遍历每个成员
+    * */
+
+    const s = new Set([5]);
+    [1, 8, 8, 9, 8, 6, 8, 8, 8, 3].forEach(function (x) {
+        return s.add(x);
+        // todo    add() 去重？x!!! 向 s 中添加元素 （不添加重复的值）
+    });
+    for (let i of s) {
+        console.log(i);
+    }
+    
+    //    TODO Set 可以 接受 数组
+    var sets = new Set([1, 2, 3, 3]);
+    console.log(...sets)// 1 2 3
+
+    var it = new Set([2, 1, 1, 1, 1, 1]);
+    console.log(it.size)//2
+
+    //    TODO 去除数组重复
+    console.log([...new Set([1, 2, 1, 1, 1])])// 1 2
+
+
+    //TODO Array.from 方法可以将Set结构转为数组。
+    var items = new Set([1, 2, 3, 4, 5]);
+    console.log(Array.from(items))// todo 转化成数组
+    console.log(...items);
+
+    //    TODO  map filter 的使用
+    let te = new Set([1, 3, 4, 3, 6, 2, 4].map(x => x * 2));
+    console.log(...te);//2 6 8 12 4
+    let fil = new Set([1, 4, 4, 3, 6, 2, 4].filter(x => x % 2 === 0))
+    console.log(...fil);
+
+</script>
+</body>
+</html>

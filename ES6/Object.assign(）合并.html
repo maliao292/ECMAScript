@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script>
+			const DEFAULTS = {
+				logLevel: 0,
+				outputFormat: 'html'
+			};
+
+			function processContent(options) {
+				options = Object.assign({}, DEFAULTS, options);
+				console.log(options);
+				// ...
+			}
+			processContent({leaves:7})
+			processContent({leave:{a:6}})
+			
+		</script>
+	</body>
+
+</html>

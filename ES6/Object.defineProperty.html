@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script>
+			//			传入参数
+			//			第一个参数:目标对象
+			//			第二个参数:需要定义的属性或方法的名字。
+			//			第三个参数:目标属性所拥有的特性。（descriptor）
+			//				alue:属性的值(不用多说了)
+			//				writable:如果为false，属性的值就不能被重写,只能为只读了				
+			//				configurable:总开关，一旦为false，就不能再设置他的（value，writable，configurable）
+			//					总开关，第一次设置 false 之后，，第二次什么设置也不行 例如：
+			var a = {}
+			Object.defineProperty(a, "b", {
+				configurable: false
+			})
+			Object.defineProperty(a, "b", {
+				configurable: true
+			})
+			//error: Uncaught TypeError: Cannot redefine property: b
+
+			//				enumerable:是否能在for...in循环中遍历出来或在Object.keys中列举出来。			
+			//				get:				
+			//				set:
+								var a = {}
+								Object.defineProperty(a, "b", {
+									set: function(newValue) {
+										console.log("你要赋值给我,我的新值是"＋newValue)
+									},
+									get: function() {
+										console.log("你取我的值")
+										return 2 //注意这里，我硬编码返回2
+									}
+								})
+								a.b = 1 //打印 你要赋值给我,我的新值是1
+								console.log(a.b) //打印 你取我的值
+								//打印 2    注意这里，和我的硬编码相同的	
+								
+								
+								
+			var a = {}
+			Object.defineProperty(a, "b", {
+				value: 123
+			})
+			console.log(a.b); //123
+
+
+			let proto = {};
+			let obj = {
+				x: 10
+			};
+			Object.setPrototypeOf(obj, proto);
+//			 obj.__proto__ = proto;
+			proto.y = 20;
+			proto.z = 40;
+			obj.x // 10
+			obj.y // 20
+			obj.z // 40
+		</script>
+	</body>
+
+</html>

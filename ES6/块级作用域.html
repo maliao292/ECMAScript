@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			var tmp = new Date();
+
+			function f() {
+				console.log(tmp);
+				if(false) {
+					var tmp = 'hello world';
+				}
+			}
+			f(); //undefined
+		</script>
+	</body>
+
+</html>
