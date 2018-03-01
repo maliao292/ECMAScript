@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        // 第一次被内部捕获
+        // 第二次 因为内部 已经捕获一次 就不再 执行  就被外部捕获
+
+
+        var g = function* (){
+            try{
+                yield ;
+            } catch (e){
+                console.log('内部捕获'+e)
+            }
+        }
+        var i = g();
+        i.next();
+        try{
+            i.throw('a');
+            i.throw('b');
+        } catch (e){
+            console.log('外部捕获'+e);
+        }
+    </script>
+</body>
+</html>
