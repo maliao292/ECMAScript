@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Generator  译：创造者、生产者
+    // 封装了多个内部状态
+    // 还是一个遍历器对象生成函数。返回便利对象，可依次便利Generaror 函数内部的每一个状态
+    // 两个特征：
+    // function关键字与函数名之间有一个星号
+    // 内部使用 yield 语句，可依次便利Generator 函数内部的每一个状态
+    // yield 译：产出
+    // yield 只能用在Genertor 里面，用在其他地方都会报错
+
+    function* helloGenertor() {
+        yield 'hello';
+        yield 1 + 2;
+        yield 'word';
+        return 'ending';
+    }
+
+    var hw = helloGenertor();
+    console.log(JSON.stringify(hw.next())) //把object 转换成 string 字符串
+    console.log(JSON.stringify(hw.next()))
+    console.log(JSON.stringify(hw.next()))
+    console.log(JSON.stringify(hw.next()))
+
+    // {"value":"hello","done":false}
+    // value 表示当前值   done 表示 当前 遍历 是否结束
+
+    // {"value":"word","done":false}
+    // {"value":"ending","done":true}
+    // {"done":true}
+
+
+    // for....of  可以遍历 yield
+
+    function* foo() {
+        yield 1;
+        yield 2;
+        yield 3;
+        yield 'a';
+    }
+
+    for (let v of foo()) {
+        console.log(v);
+    }
+
+    // 扩展运算符（ ... ）、解构赋值和 Array.from 方法内部调用的，都是遍历器接口。这意味着，它们都可以将Generator函数返回的Iterator对象，作为参数。
+    function* num() {
+        yield 1;
+        yield 2;
+        return 3;
+    }
+
+    console.log([...num()])
+    console.log([Array.from(num())])
+    let[x,y] = num();
+    console.log(x,y)
+
+</script>
+</body>
+</html>
