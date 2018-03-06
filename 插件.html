@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>插件</title>
+</head>
+<body>
+<a href="https://www.baidu.com/">我是百度</a><br>
+<a href="http://ask.dcloud.net.cn/#all">DCloud</a>
+<p>我是 打酱油的</p>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+    $.fn.myPiugin = function () {
+        this.css('color','red');
+        this.each(function () {
+            $(this).append(' '+$(this).attr('href'))
+        })
+    };
+   $('a').myPiugin()
+</script>
+</body>
+</html>
