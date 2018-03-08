@@ -15,7 +15,30 @@
     Point.prototype.toString = function () {
         return '('+this.x+','+this.y+')'
     }
-    var p  = new Point(1,2)
+    var p  = new Point(1,2);
+
+    console.log(p)
+
+//    todo Class
+var opt = {'a':1, 'b':2, 'c':3}
+    class baseModel {
+        constructor(options,data){
+            this.name = 'Base';
+            this.url = 'http://azat.co/api';
+            this.data = data;
+            this.options = options;
+      }
+      getName(){
+            console.log(`Class name:${this.name}`);
+            console.log(`Class name:${this.options.a}`);
+            return 1;
+      }
+  }
+
+ var n = new baseModel(opt);
+    // n.getName()
+
+    console.log(baseModel)
 </script>
 </body>
 </html>
