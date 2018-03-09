@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+
 <body>
+    <script>
+        // constructor （构造函数）constructor  constructor
+        function foo() {
+            console.log('inne foo');
+        }
+
+        var fooObj = new foo();
+        console.log(typeof fooObj);
+        console.log(typeof foo);
+        console.log(foo.__proto__);
+        console.log(fooObj.__proto__ === foo.prototype);
+        console.log(foo.prototype.constructor === foo);//true
+        console.log(fooObj.__proto__)
+    </script>
 
 </body>
 </html>

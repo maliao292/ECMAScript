@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>此JS 原型链 如图所示</h1>
+<img src="image/protostyle.png">
+
+<script>
+
+    <!-- ES6之前 -->
+    function Person(name) {
+        this.name = name;
+        let label = 'Person'
+    }
+
+    Person.prototype.nickName = 'PersonPrototype';
+    Person.prototype.great = function () {
+        console.log('Hi! I am ' + this.name)
+    };
+
+    function Student(name, school) {
+        this.name = name;
+        this.school = school;
+        let label = 'Student';
+    }
+
+    Student.prototype.__proto__ = Person.prototype;
+
+    let p1 = new Person('p1');
+    let s1 = new Student('s1', 'USTB');
+    p1.great();//Hi I am p1;
+    s1.great();//Hi I am s1;
+    console.log( p1.constructor === Person);//true
+
+</script>
+</body>
+</html>

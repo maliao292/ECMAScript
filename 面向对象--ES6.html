@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>此JS 原型链 如图所示</h1>
+<img src="image/protostyle.png">
+
+<script>
+
+    <!-- ES6 -->
+    class Parsen {
+        constructor(name) {
+            this.name = name;
+        }
+
+        great() {
+            console.log('Hello,I am ' + this.name);
+        }
+    }
+
+    class Student extends Parsen {
+        constructor(name, school) {
+            super(name);
+            this.school = school;
+        }
+        gerat(){
+            console.log('Hello,I am '+this.name+',my school is '+this.school)
+        }
+    }
+</script>
+</body>
+</html>
