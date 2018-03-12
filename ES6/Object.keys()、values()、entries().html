@@ -6,14 +6,14 @@
 	</head>
 	<body>
 		<script>
-			let obj = {foo:'bar',baz:'42'}
-			console.log(Object.keys(obj))
+			let obj = {foo:'bar',baz:'42'};
+			console.log(Object.keys(obj));
 			// ["foo", "baz"]
 			
-			console.log(Object.values(obj))
+			console.log(Object.values(obj));
 			//["bar", "42"]
 			
-			console.log(Object.entries(obj)[1])
+			console.log(Object.entries(obj)[1]);
 			//[["foo", "bar"], ["baz", "42"]]
 			
 			
@@ -22,9 +22,9 @@
 			var show = {
 				a:1,
 				b:2
-			}
+			};
 			
-			console.log(Object.entries(show))
+			console.log(Object.entries(show));
 			for (let [k,v] of Object.entries(show)){
 				console.log(
 					`${k}:${v}`
