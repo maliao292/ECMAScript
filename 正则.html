@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let re = new RegExp('a');
+    //  var re = /a/;
+    console.log(re.test('a')); //true
+
+    let str1 = '374829348791d';
+    let t1 = /\D/;  //非数字（含有）
+    let t2 = /\d/;  //数字（含有）
+    console.log(t1.test(str1));
+    console.log(t2.test(str1));
+
+    // todo ---  search() ---- 搜索位置，搜索到第一个 就返回 下标，只返回一个  没有就返回-1
+    let str2 = 'kongnijbiawba';
+    let re2 = /B/i;  //查找字母‘B’ i 表示不区分大小写
+    //    let re2 = new RegExp('B','i');
+    console.log(str2.search(re2));
+    // 7
+
+
+    // todo match() 在字符串中搜索  返回搜索到的结果 数组
+
+    let str3 = 'haj123sdk54hask33dkhalsd879';
+    let re3 = /\d+/g;
+    // ' + '至少一个！ \d 数字
+    console.log(str3.match(re3))
+    // [123，54，33，879]
+
+    //match() 返回子项 不能 ‘g’
+
+    let str_m = 'abc';
+    let re_m = /(a)(b)(c)/;
+
+    console.log(str_m.match(re_m));
+    //  ["abc", "a", "b", "c", index: 0, input: "abc"]
+
+    // todo replace()  替换
+    let str4 = '我爱北京天安门，天安门上太阳升';
+    let re4 = /北京|天安门/g;  //找到  ‘北京’或者‘天安门’ g 全局匹配
+    let str4s = str4.replace(re4, '**');
+    console.log(str4s);
+
+    let str4er = str4.replace(/北京|天安门/g, function (str) {
+        console.log(str);
+        let result = '';
+        for (let i = 0; i < str.length; i++) {
+            result += '*';
+        }
+        return result;
+    });
+    console.log(str4er);
+
+    //    todo '()'分组符
+    let str5 = '2018-03-13';
+    let re5_1 = /\d-+/g;   //匹配数字，横杠 ‘-’数量至少为 1 匹配结果 3- 6---
+    let re5_2 = /(\d-)+/g; // 数字和‘-’ 数量至少为 1
+    let re5_3 = /(\d+)(-)/g; //至少一个数字，和一个 ‘-’ 2018- 03-
+
+    str5 = str5.replace(re5_3, function ($0, $1, $2) {
+        console.log($0 + ' $0');
+        console.log($1 + ' $1');
+        console.log($2 + ' $2');
+        return $1 + '.'
+    });
+    console.log(str5); // 2018.03.13
+
+
+    //    todo '[]' 表示集合 例如：[abc],表示匹配到 a b c 中任意一个 ，可以是集合 [0-9]   '^' 写在 [] 里 代表排除
+    // 例子：匹配HTML标签 比如<div class="b">hahahah </div> 找出标签<div class="b"></div>
+    let re6 = /<[^>]+>/g //匹配左括号 中间至少一个非右括号的内容 然后是右括号
+    let re7 = /<[\w\W]+>/g;   // \w [0-9a-zA-z]  \W  [^....]
+</script>
+</body>
+</html>

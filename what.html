@@ -6,8 +6,21 @@
 </head>
 <body>
 <script>
-    letstr = "aaaabbbccccddfgh";
-    letobj  = {};
+    let s = 0;
+    for(var i = 0;i >= 0;i++){
+        for(var i = 0;i >= 0;i++){
+            for(var i = 0;i >= 0;i++){
+                for(var i = 0;i >= 0;i++){
+                    console.log(s);
+                    // break;
+                }
+            }
+        }
+        // break;
+    }
+
+    let str = "aaaabbbccccddfgh";
+    let obj  = {};
     for(let i=0;i<str.length;i++){
         let v = str.charAt(i);
         if(obj[v] && obj[v].value == v){
