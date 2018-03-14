@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Student(name) {
+        this.name = name;
+        this.hello = function () {
+            alert('Hello,' + this.name + '!');
+        }
+    }
+
+    var xiaoming = new Student('小明');
+    xiaoming.name; // '小明'
+    xiaoming.hello(); // Hello, 小明!
+
+
+    console.log(xiaoming.constructor === Student.prototype.constructor); // true
+
+    console.log(Student.prototype.constructor === Student); // true
+
+    console.log(Object.getPrototypeOf(xiaoming) === Student.prototype); // true
+
+    console.log(xiaoming instanceof Student); // true
+</script>
+</body>
+</html>
