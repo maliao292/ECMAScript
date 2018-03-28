@@ -1,24 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            list-style: none;
+            height: 80px;
+            color: #fff;
+            font-size: 50px;
+            font-weight: 700;
+            text-align: center;
+        }
+    </style>
+
 </head>
 <body>
 <div id="wrapper">
     <ul>
+        <li>777777777777</li>
+        <li>...</li>
+        <li>6</li>
+        <li>4</li>
         <li>...</li>
         <li>...</li>
         <li>6</li>
+        <li>...</li>
+        <li>6</li>
+        <li>4</li>
         <li>4</li>
     </ul>
 </div>
 <script src="iScrollJS/iscroll.js"></script>
+<!--<script src="http://jquery.com/"></script>-->
 <script>
-    var myScroll;
-    function loaded() {
-        myScroll = new IScroll('#wrapper');
+        new IScroll('#wrapper', {
+            hScrollbar:true,
+            vScrollbar:true
+        });
+
+</script>
+<script>
+    var li = document.getElementsByTagName('li');
+
+    for (var i = 0; i < li.length; i++) {
+        var r = parseInt(Math.random() * 254) + 1;
+        var g = parseInt(Math.random() * 254) + 1;
+        var b = parseInt(Math.random() * 254) + 1;
+        var rgb = 'rgb(' + r + ',' + g + ',' + b + ')';
+        console.log(rgb);
+        li[i].style.background = rgb;
+
     }
+
+
 </script>
 </body>
 </html>
