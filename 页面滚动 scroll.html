@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>scroll</title>
+</head>
+<body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<script src="js/jquery-1.8.2.min.js"></script>
+<script>
+    <!--Jquery 页面滚动事件-->
+    $("div").scroll(function() {});
+    //原生 页面滚动事件
+    window.onscroll = function(){
+
+
+        // todo  分别为 jquery 和 原生 获取 页面滚动位置
+        console.log($(window).scrollTop());
+        console.log(document.documentElement.scrollTop);
+    };
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
