@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        b{
+            border: 1px solid #333;
+            display: inline-block;
+            margin-right: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>栈和队列</h2>
+    <img src="image/shiftpush.jpg">
+    <img src="image/unshiftpop.jpg">
+    <div>
+    <b onclick="shift_us()">shift(尾出)</b><b onclick="push_us()">push（前进）</b><b onclick="unshift_us()">unshift（后进）</b><b onclick="pop_us()">pop（前出）</b>
+    </div>
+    <h1></h1>
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script>
+        var arr = [1,2,3,4,5,6,7,8,9];
+        $('h1').html(arr)
+        function shift_us(){
+            arr.shift();
+            $('h1').html(arr)
+        }
+
+        function push_us(){
+            arr.push(arr[arr.length-1]+1);
+            $('h1').html(arr)
+        }
+
+        function unshift_us(){
+            arr.unshift(arr[0]-1);
+            $('h1').html(arr)
+        }
+
+
+        function pop_us(){
+            arr.pop(arr.length);
+            $('h1').html(arr)
+        }
+    </script>
+</body>
+</html>

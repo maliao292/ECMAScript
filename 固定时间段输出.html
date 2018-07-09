@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>大约三个月时间段</title>
 </head>
 <body>
+<script>
+    function ltime(month) {
+        let today = new Date();
+        // let beforeweek =today - month*4*7*24*60*60*1000;
+        let a = new Date(beforeweek).getMonth() + 1;
+        let montharr = [];
 
+        for (let i = 0; i < month * 4 * 7; i += 7) {
+            let beforeweek = today - i * 7 * 24 * 60 * 60 * 1000;
+            let M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1);
+            let D = date.getDate();
+            let md = M+'-'+D;
+            // montharr.push(beforeweek);
+        }
+
+    }
+
+    ltime(13)
+</script>
 </body>
 </html>
