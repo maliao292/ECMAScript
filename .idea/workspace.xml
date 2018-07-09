@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a47c1f9-1a87-4ca7-8518-389c6487516e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/能提交吗.html" beforeDir="false" afterPath="$PROJECT_DIR$/能提交吗.html" afterDir="false" />
-    </list>
+    <list default="true" id="8a47c1f9-1a87-4ca7-8518-389c6487516e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +14,8 @@
       <file leaf-file-name="能提交吗.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/能提交吗.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="50">
+              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -106,7 +103,7 @@
       <workItem from="1531097542099" duration="129000" />
       <workItem from="1531097680125" duration="2132000" />
       <workItem from="1531119296980" duration="616000" />
-      <workItem from="1531120325487" duration="4000" />
+      <workItem from="1531120325487" duration="889000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1530861161543</created>
@@ -178,11 +175,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531119359127</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test66">
+      <created>1531120334873</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1531120334873</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6812000" />
+    <option name="totallyTimeSpent" value="7697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -277,8 +281,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/能提交吗.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="50">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
