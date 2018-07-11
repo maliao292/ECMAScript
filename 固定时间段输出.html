@@ -9,20 +9,28 @@
     function ltime(month) {
         let today = new Date();
         // let beforeweek =today - month*4*7*24*60*60*1000;
-        let a = new Date(beforeweek).getMonth() + 1;
+     //   let a = new Date(beforeweek).getMonth() + 1;
         let montharr = [];
 
-        for (let i = 0; i < month * 4 * 7; i += 7) {
-            let beforeweek = today - i * 7 * 24 * 60 * 60 * 1000;
-            let M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1);
-            let D = date.getDate();
-            let md = M+'-'+D;
-            // montharr.push(beforeweek);
-        }
+        for (let i = 0; i < month * 4; i++) {
 
+            let beforeweek = today - i*7 * 24 * 60 * 60 * 1000;
+            let endweek = beforeweek - 6 * 24 * 60 * 60 * 1000;
+            let  Y =  new Date(beforeweek).getFullYear();
+            let M = ( new Date(beforeweek).getMonth() + 1 < 10 ? '0' + (new Date(beforeweek).getMonth() + 1) : new Date(beforeweek).getMonth() + 1);
+            let D = new Date(beforeweek).getDate();
+            let Y_e = new Date(endweek).getFullYear();
+            let M_e = ( new Date(endweek).getMonth() + 1 < 10 ? '0' + (new Date(endweek).getMonth() + 1) : new Date(endweek).getMonth() + 1);
+            let D_e = new Date(endweek).getDate();
+            let md =Y+'-'+M+'-'+D;
+            let md_e =Y_e+'-'+M_e+'-'+D_e;
+
+            montharr.unshift(md_e+'~'+md);
+        }
+console.log(montharr)
     }
 
-    ltime(13)
+    ltime(3)
 </script>
 </body>
 </html>
