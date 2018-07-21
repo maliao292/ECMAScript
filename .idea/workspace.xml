@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a47c1f9-1a87-4ca7-8518-389c6487516e" name="Default" comment="固定时间段输出">
+    <list default="true" id="8a47c1f9-1a87-4ca7-8518-389c6487516e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/CSS3_vh_vw_vmin_vmax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rem_em==rem.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/固定时间段输出.html" beforeDir="false" afterPath="$PROJECT_DIR$/固定时间段输出.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +15,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="时间和时间戳的转换.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="时间和时间戳的转换.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/时间和时间戳的转换.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="475">
+              <caret line="28" column="29" selection-start-line="25" selection-start-column="3" selection-end-line="28" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CSS3_vh_vw_vmin_vmax.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSS3_vh_vw_vmin_vmax.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rem_em==rem.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rem_em==rem.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -51,6 +70,8 @@
         <option value="$PROJECT_DIR$/style/时间和时间戳的转换.html" />
         <option value="$PROJECT_DIR$/固定时间段输出.html" />
         <option value="$PROJECT_DIR$/时间和时间戳的转换.html" />
+        <option value="$PROJECT_DIR$/CSS3_vh_vw_vmin_vmax.html" />
+        <option value="$PROJECT_DIR$/rem_em==rem.html" />
       </list>
     </option>
   </component>
@@ -84,16 +105,6 @@
             <path>
               <item name="ECM" type="b2602c69:ProjectViewProjectNode" />
               <item name="ECM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ECM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ECM" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ECM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ECM" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,7 +165,11 @@
       <workItem from="1531205071114" duration="1182000" />
       <workItem from="1531216750210" duration="153000" />
       <workItem from="1531269450598" duration="870000" />
-      <workItem from="1531281247011" duration="1708000" />
+      <workItem from="1531281247011" duration="1744000" />
+      <workItem from="1531377846334" duration="666000" />
+      <workItem from="1531989308229" duration="598000" />
+      <workItem from="1531990085614" duration="654000" />
+      <workItem from="1532152870180" duration="2716000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1530861161543</created>
@@ -261,11 +276,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531124777799</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="固定时间段输出">
+      <created>1531290752138</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1531290752138</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18227000" />
+    <option name="totallyTimeSpent" value="22897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -303,6 +325,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="固定时间段输出" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/时间和时间戳的转换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="29" selection-start-line="25" selection-start-column="3" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时间和时间戳的转换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="29" selection-start-line="25" selection-start-column="3" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时间和时间戳的转换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="29" selection-start-line="25" selection-start-column="3" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时间和时间戳的转换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/时间和时间戳的转换.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="875">
@@ -473,8 +523,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/时间和时间戳的转换.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="475">
+          <caret line="28" column="29" selection-start-line="25" selection-start-column="3" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3_vh_vw_vmin_vmax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rem_em==rem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
         </state>
       </provider>
     </entry>

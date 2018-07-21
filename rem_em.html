@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-size: 14px;
+        }
+
+        div {
+            font-size: 1.2em;
+        / / calculated at 14 px * 1.2, or 16.8 px
+        }
+        span {
+            font-size: 1.2rem;
+        / / calculated at 14 px * 1.2, or 16.8 px
+        }
+
+        /* todo em 与 父元素  的大小 关系  */
+        /* todo rem 与 html 根元素  的大小 关系  */
+    </style>
+</head>
+<body>
+<div> Test <!-- 14 * 1.2 = 16.8px -->
+    <div> Test <!-- 16.8 * 1.2 = 20.16px -->
+        <div> Test <!-- 20.16 * 1.2 = 24.192px --> </div>
+    </div>
+</div>
+<span> Test <!-- 14 * 1.2 = 16.8px -->
+    <span> Test <!-- 14 * 1.2 = 16.8px -->
+        <span> Test <!-- 14 * 1.2 = 16.8px --> </span>
+    </span>
+</span>
+
+</body>
+</html>
