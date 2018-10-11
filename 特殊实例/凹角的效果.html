@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        :root {
+            --r: 2em;
+            background: url("http://img1.3lian.com/2015/a1/144/d/68.jpg");
+        }
+
+        .box {
+            position: relative;
+            overflow: hidden;
+            margin: 0.25em auto;
+            width: 15em;
+            min-height: 10em;
+            border-radius: 1em;
+
+        }
+
+        .box::before {
+            content: '';
+            position: absolute;
+            padding: var(--r);
+            margin: calc(var(--r) * (-1));
+            border-radius: 50%;
+            box-shadow: 0 0 0 300px rgba(153,85,170, .75);
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+
+
+<!--<div style="outline: #00FF00 dotted thick;border: 1px solid #333;border-radius: 10px;width: 50px;height: 50px;"></div>-->
+</body>
+</html>

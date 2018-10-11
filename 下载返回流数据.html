@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="http://www.jq22.com/jquery/bootstrap-3.3.4.css" rel="stylesheet">
+    <link rel="stylesheet" href="layui/css/layui.css"/>
+    <script src="layui/layui.js"></script>
+    <script src="js/bese.js"></script>
+    <link rel="stylesheet" href="css/setting.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Title</title>
+    <style>
+        .content {
+            background: #FFf;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 50px;
+            margin-left: 120px;
+        }
+    </style>
+</head>
+<body>
+<div class="contentBody">
+    <div class="centerBody">
+        <div class="ibox">
+            <div class="top">用户管理</div>
+            <div class="ibox-body">
+                <div class="layui-form" lay-filter="searchStation">
+                    <div class="layui-form-item ">
+                        <div class="system_input">
+                            <input type="text" placeholder="请输入门牌号" class="houseNumber_sv">
+                            <input type="text" placeholder="请输入手机号" style="margin-left: 10px" class="phone_sv">
+                        </div>
+                        <div class="layui-inline" style="margin-left: 30px">
+                            <button class="layui-btn search" lay-submit="" lay-filter="searchButton">查询</button>
+                        </div>
+                        <div class="layui-inline fr" style="margin-left: 30px">
+
+                            <button class="layui-btn upin" lay-submit="" lay-filter="searchButton">导入</button>
+                            <button class="layui-btn out" lay-submit="" lay-filter="restSearch">导出模板</button>
+                            <button class="layui-btn addarea" lay-submit="" lay-filter="addButton">新增</button>
+                        </div>
+                    </div>
+                </div>
+                <!--数据表格-->
+                <div class="tabhead_s" id="msgList">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>
+                                <div>序号</div>
+                            </th>
+                            <th>
+                                <div>姓名</div>
+                            </th>
+                            <th>
+                                <div>手机号</div>
+                            </th>
+                            <th>
+                                <div>门牌号</div>
+                            </th>
+                            <th>
+                                <div>是否员工</div>
+                            </th>
+                            <th>
+                                <div>编辑</div>
+                            </th>
+                            <th>
+                                <div>删除</div>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div style="text-align: center;padding: 20px;">
+                <div id="page"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 新增弹窗 -->
+<div class="showdetail addrole adduser">
+    <span class="middle"></span>
+    <div class="cardetail">
+        <span class="layui-icon layui-icon-close closecar"></span>
+        <div class="alerttitle">用户管理</div>
+        <div class="roledetail">
+            <div>
+                <span>姓名:</span>
+                <input type="text" class="name_c"/>
+            </div>
+            <div>
+                <span>手机号:</span>
+                <input type="number" class="mobile_v"/>
+            </div>
+            <div>
+                <span>门牌号:</span>
+                <input type="text" class="houseNumber_v"/>
+            </div>
+            <div>
+                <span>是否员工:</span>
+                <select class="isEmployee_v">
+                    <option value="-1">请选择</option>
+                    <option value="1">是</option>
+                    <option value="2">否</option>
+                </select>
+            </div>
+        </div>
+        <div class="savebtn">
+            <span class="pointer">保存</span>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="http://www.jq22.com/jquery/bootstrap-3.3.4.js"></script>
+<script src="js/distpicker.data.js"></script>
+<script src="js/distpicker.js"></script>
+<script src="js/main.js"></script>
+<script>
+    var dataObj = {
+        name: '',
+        list_id: '',
+        mobile: $('.houseNumber_sv').val(), //"12315452547",
+        houseNumber: $('.phone_sv').val(), // "门牌号",
+        isEmployee: '',
+        current: 1,
+        size: 10
+    };
+    layui.use(['layer', 'laypage'], function () {
+        var laypage = layui.laypage; //分页
+        var layer = layui.layer; //分页
+        /* 查询列表 function */
+        function getlist() {
+            var data = {
+                name: dataObj.name,
+                houseNumber: dataObj.houseNumber,
+                mobile: dataObj.mobile,
+                current: dataObj.current,
+                size: dataObj.size,
+                fuzzy: 1
+            };
+            $.ajax({
+                method: 'get',
+                url: baseUrl+'resident/list',
+                data: data,
+                success: function (data) {
+                    let list = data.rows;
+                    $('.tabhead_s tbody').empty();
+                    let tr = '';
+                    $.each(list, function (i, v) {
+                        tr += '<tr>\n' +
+                            '                            <td>\n' +
+                            '                                <div>' + (((dataObj.current - 1) * dataObj.size) + (i + 1)) + '</div>\n' +
+                            '                            </td>\n' +
+                            '                            <td>\n' +
+                            '                                <div>' + v.name + '</div>\n' +
+                            '                            </td>\n' +
+                            '                            <td>\n' +
+                            '                                <div>' + v.mobile + '</div>\n' +
+                            '                            </td>\n' +
+                            '                            <td>\n' +
+                            '                                <div>' + (v.houseNumber?v.houseNumber:'') + '</div>\n' +
+                            '                            </td>\n' +
+                            '                            <td>\n' +
+                            '                                <div>' + (v.isEmployee == 1 ? "是" : "否") + '</div>\n' +
+                            '                            </td>\n' +
+                            '                            <td style="width:150px">\n' +
+                            '                                <div><span class="bj" data-id="' + v.id + '"></span></div>\n' +
+                            '                            </td>\n' +
+                            '                            <td style="width:150px">\n' +
+                            '                                <div><span class="sc" data-id="' + v.id + '"></span></div>\n' +
+                            '                            </td>\n' +
+                            '                        </tr>'
+                    });
+                    $('.tabhead_s tbody').append(tr);
+
+                    laypage.render({
+                        elem: 'page',
+                        limit: 10,
+                        curr: dataObj.current,
+                        count: data.count, //数据总数，从服务端得到
+                        jump: function (obj, first) {
+                            if (!first) {
+                                dataObj.current = obj.curr;
+                                getlist()
+                            }
+                        }
+                    });
+                },
+                error: function (e) {
+                    console.log(e)
+                }
+            });
+        }
+
+        getlist();
+
+        /* 新增居民 fun*/
+        function addresident(data, msg) {
+            $.ajax({
+                method: 'post',
+                url: baseUrl+"resident/",
+                data: data,
+                success: function (data) {
+
+                    if (data.code == 200) {
+                        layer.msg('新增成功');
+                        $('.showdetail').hide();
+                        layer.msg(msg);
+                        getlist();
+                    } else {
+                        layer.msg(data.msg);
+                    }
+
+                },
+                error: function (e) {
+
+                    layer.msg(e);
+                }
+            });
+        }
+
+        /* 新增居民 click */
+        /* 点击显示新增弹窗 */
+        $('.addarea').on('click', function () {
+            dataObj.list_id = '';
+            $('.addrole').show();
+            $('.roledetail input').val('');
+            $('.roledetail select').val('-1')
+        });
+        /* 显示编辑 弹窗 */
+        $('.tabhead_s tbody').on('click', '.bj', function () {
+
+            $('.name_c').val($(this).parent().parent().parent().find('td').eq(1).find('div').html());
+            $('.mobile_v').val($(this).parent().parent().parent().find('td').eq(2).find('div').html());
+            $('.houseNumber_v').val($(this).parent().parent().parent().find('td').eq(3).find('div').html());
+            var yg = $(this).parent().parent().parent().find('td').eq(4).find('div').html() == "是" ? 1 : 2;
+            $('.isEmployee_v').val(yg);
+            dataObj.list_id = $(this).attr('data-id');
+            $('.addrole').show();
+        })
+        /* 保存/编辑 居民 click */
+        /* 新增/编辑 click */
+        $('.savebtn span').on('click', function () {
+            var re = /^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])\d{8}$/;
+            if (!$('.name_c').val()) {
+                layer.msg('请输入姓名');
+                return;
+            }
+            if (!$('.mobile_v').val()) {
+                layer.msg('手机号不能为空');
+                return;
+            }
+            if (!re.test($('.mobile_v').val())) {
+                layer.msg('请输入正确的手机号码');
+                return;
+            }
+       /*     if (!$('.houseNumber_v').val()) {
+                layer.msg('请输入门牌号');
+                return;
+            }*/
+            if ($('.isEmployee_v').val() == -1) {
+                layer.msg('请选择是否为员工');
+                return;
+            }
+            if (!dataObj.list_id) {
+                var data = {
+                    name: $('.name_c').val(),
+                    mobile: $('.mobile_v').val(),
+                    houseNumber: $('.houseNumber_v').val(),
+                    isEmployee: $('.isEmployee_v').val(),
+                };
+                var msg = '新增成功'
+            } else {
+                var data = {
+                    id: dataObj.list_id,
+                    name: $('.name_c').val(),
+                    mobile: $('.mobile_v').val(),
+                    houseNumber: $('.houseNumber_v').val(),
+                    isEmployee: $('.isEmployee_v').val(),
+                    _method: "PUT"
+                };
+                var msg = '修改成功'
+            }
+            addresident(data, msg);
+        });
+
+        /* 删除 */
+        $('.tabhead_s tbody').on('click', '.sc', function () {
+            var thisid = $(this).attr('data-id');
+            layer.confirm('是否删除该记录？', {
+                btn: ['删除', '取消'] //按钮
+            }, function () {
+                $.ajax({
+                    method: 'delete',
+                    url: baseUrl+"resident/" + thisid,
+                    success: function (data) {
+                                       if (data.code == 200) {
+                            layer.msg('删除成功');
+                            getlist();
+                        } else {
+                            layer.msg(data.msg);
+                        }
+                    },
+                    error: function (e) {
+                        layer.msg(e);
+                    }
+                });
+            }, function () {
+            });
+        });
+
+        /* 查询 click  */
+        $('.search').on('click', function () {
+            dataObj.mobile = $('.phone_sv').val();
+            dataObj.houseNumber = $('.houseNumber_sv').val();
+            getlist();
+        });
+
+        /* 导出 模板 */
+        $('.out').on('click', function () {
+            var downloadUrl = baseUrl+"eb_common/download?filePath=" + "download/居民信息模板.xlsx";
+            downloadUrl = encodeURI(encodeURI(downloadUrl));
+            window.location.href = downloadUrl;
+        });
+
+        /* 上传 */
+        $('.upin').on('click', function () {
+            layer.open({
+                type: 1,
+                title:'导入',
+                skin: 'layui-layer-demo', //样式类名
+                closeBtn: 1, //不显示关闭按钮
+                anim: 2,
+                shadeClose: true, //开启遮罩关闭
+                content: '<div style="width: 100%; padding: 0 15px;color: #666666">\n' +
+                '        <div class="detail-item01">\n' +
+                '            <label class="label label01  detail-label" style="display:inline-block;color: #333;padding:0 0 15px 0">上传文件：</label>\n' +
+                '            <input type="file" id="upfile" name="upfile" >\n' +
+                '        </div>\n' +
+                '        <div class="detail-item01">\n' +
+                '            <input id="subm" style="width: 80px;height: 35px;border: 1px solid #ccc;border-radius: 5px;margin: 20px 0" type="submit" value="提交" >\n' +
+                '        </div>\n' +
+                '    </div>'
+            });
+        });
+
+        $('.closecar').on('click', function () {
+            $('.showdetail').hide();
+        });
+        /* 重置 */
+        $('.rest').on('click', function () {
+            $('.system_input input').val('');
+        });
+
+
+
+
+    // todo 导入文件 ajax  无法下载 返回 “流” 所以 用下面的方法）
+
+
+
+
+/*    function importExp() {
+        var formData = new FormData();
+        var name = $("#upfile").val();
+        formData.append("file",$("#upfile")[0].files[0]);
+        formData.append("name",name);
+        $.ajax({
+            url : '/charge/resident/importResidents',
+            type : 'POST',
+            //  async : false,
+            data : formData,
+            // 告诉jQuery不要去处理发送的数据
+            processData : false,
+            // 告诉jQuery不要去设置Content-Type请求头
+            contentType : false,
+            beforeSend:function(){
+                console.log("正在进行，请稍候");
+            },
+            success : function(data) {
+
+                getlist();
+                layer.closeAll();
+            }
+        });
+    }*/
+
+
+        //导入文件 然后 下载 返回 “流”
+        function importExp() {
+            var formData = new FormData();
+            var name = $("#upfile").val();
+            formData.append("file",$("#upfile")[0].files[0]);
+            formData.append("name",name);
+
+            var url = '/charge/resident/importResidents';
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', url, true);
+            xhr.responseType = "blob";
+            xhr.onload = function() {
+                if (this.status === 200) {
+
+                    // 返回200
+
+                    var blob = this.response;
+
+                    var reader = new FileReader();
+
+                    reader.readAsDataURL(blob);    // 转换为base64，可以直接放入a表情href
+
+                    reader.onload = function (e) {
+
+                        // 转换完成，创建一个a标签用于下载
+
+                        var a = document.createElement('a');
+
+                        a.download = 'data.xls';
+
+                        a.href = e.target.result;
+
+                        $("body").append(a);    // 修复firefox中无法触发click
+
+                        a.click();
+
+                        $(a).remove();
+
+                    }
+
+                }
+            }
+            xhr.send(formData);
+
+        }
+
+
+
+
+    $('body').on('click','#subm',function () {
+        importExp();
+    })
+    });
+</script>
+</body>
+</html>
