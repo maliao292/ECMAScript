@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    table {
+        width: 300%;
+        border-top: 1px solid #f00;
+        border-left: 1px solid #f00;
+    }
+
+    th,
+    td {
+        height: 40px;
+        border-right: 1px solid #333;
+        border-bottom: 1px solid #333;
+    }
+    /*		thead {
+        position: absolute;
+        left: 100px;
+        top: 0;
+        right: 0;
+    }*/
+
+    table tbody::-webkit-scrollbar {
+        /*隐藏滚轮*/
+        display: none;
+    }
+
+    table thead {
+        width: calc( 100% - 1em)
+    }
+
+    table thead th {
+        background: #ccc;
+    }
+
+    table tbody {
+        display: block;
+        height: 195px;
+        overflow-y: scroll;
+    }
+
+    table thead,
+    tbody tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    /*.tables {
+        padding-top: 100px;
+        padding-left: 100px;
+    }*/
+</style>
+
+<body>
+<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<div class="tables">
+    <table border="0" cellspacing="0" cellpadding="0">
+        <thead>
+        <tr>
+            <th>1</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>HeaderHeaderHeaderHeaderHeader</td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </tr>
+        <tr>
+            <td>Header</td>
+            <td></td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td>Header</td>
+            <td>Header</td>
+            <td>Header</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript">
+    /*	for(var i=0;i<$('tr:first-child td').length;i++){
+                                                        $('tr th').eq(i).css('width',($('tr td').eq(i).width())*3+'px')
+                                                    }*/
+
+    //('tr th').eq(1).width($('tr td').eq(1).width())
+</script>
+</body>
+
+</html>
