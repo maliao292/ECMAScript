@@ -5,7 +5,7 @@ console.log(add(2, 4)); //6
 
 
 
-// todo 引入方式  type 必须为 module       type="module"
+// todo 引入方式  type 须为 module       type="module"
 // todo <script type="module">
 // todo  import {addTextToBody} from './utils.mjs';
 // todo  addTextToBody('Modules are pretty cool.');

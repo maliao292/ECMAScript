@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function Fn() {
+       var num = 10;
+        this.x = 100;
+        this.getx = function () {
+            console.log(this.x);
+        }
+    }
+    Fn.prototype.getfa = function () {
+
+    }
+    var f1 = new Fn();
+    console.dir( Fn)
+    console.log(f1 instanceof Fn);  // todo 判断 f1 是 Fn 的 实例
+     // todo hasOwnProperty 用来检测是否 为对象的 “私有属性”，这个方法只能监测私有属性
+     console.log(f1.hasOwnProperty("getx")) // true
+
+    console.log('getx' in  f1)
+    function hasPubProperty(obj,attr) {  // 判断是否为 公有属性
+     return (attr in obj) && !obj.hasOwnProperty(attr);
+    }
+   console.log(hasPubProperty(f1,'getfa'));
+
+
+
+</script>
+</body>
+</html>
