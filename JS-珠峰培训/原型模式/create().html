@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // var obj3 = Object create(proObj);
+    // 注：创建一个新对象 但是还要把proObj 作为这个对象的原型
+    var obj = {getX:function () {console.log('getX')}};
+    var obj2 = Object.create(obj);
+
+    obj.getY = function () {
+        console.log('getY')
+    };
+    obj2.getX();
+    console.log(obj2);
+
+//  模拟
+    function object(o){
+        function Fn() {}
+        Fn.prototype = o;
+        return new Fn;
+    };
+    var newObj = object(obj);
+    console.log(newObj)
+</script>
+</body>
+</html>

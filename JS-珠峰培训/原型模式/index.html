@@ -14,15 +14,45 @@
     * */
     function Fn() {
         this.x = 100;
+        this.sum = function () {
+        }
     }
 
     Fn.prototype.getX = function () {
         console.log(this.x);
     };
-
     var f1 = new Fn;
     var f2 = new Fn;
     console.log(f1.__proto__ === Fn.prototype); // true
+
+    /*
+* todo 原型链
+* f1.hasOwnProperty('x'); =》hasOwnProperty是f1的一个属性
+* 但是我们发现在f1上并没有这个方法，那如何处置。。
+* 1）通过 对象名.属性名 的方式获取属性值的时候，首先在对象的私有属性上进行查找，如果私有属性中存在这个属性，则获取的是私有属性值；
+* 如果私有属性没有，则通过 __proto__ 找到所属类的原型（类的原型上定义的属性和方法都是当前实例的公有属性和方法），原型上存在的话，获取的是公有属性值；
+* 如果原型上也没有的话，则继续通过原型上的___proto__ 继续向上查找，一只找到Object.prototype
+* */
+
+    f1.getX === f2.getX();                   // true;
+    f1.__proto__.getX === f2.__proto__.getX; // true;
+    f1.getX === Fn.prototype.getX;           // true;
+
+    f1.sum === f2.__proto__.sum; // false
+    f1.sum == Fn.prototype.sum;  //false
+
+    f1.hasOwnProperty === f1.__proto__.__proto__.hasOwnProperty;
+    
+    
+    f1.sum == function(){
+        // 修改自己私有sum
+    }
+    f1.__proto__.sum = function () {
+        // 修改所属原型上 的 sum
+    }
+    Fn.prototype.sum = function () {
+        // 修改公有的sum
+    }
 </script>
 </body>
 </html>

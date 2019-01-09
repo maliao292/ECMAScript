@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="d1"></div>
+<script>
+    /*var a = document.getElementById('d1');
+    console.log(a.__proto__);*/
+    function A() {
+        this.x = 100;
+    }
+
+    A.prototype.getX = function () {
+        console.log(this.x);
+    };
+
+    function B() {
+        this.y = 200;
+    }
+
+    B.prototype = new A;
+    var f = new B;
+
+    console.dir(f.x);
+    f.getX()
+    // 原型继承  是JS中最常用的一种方式
+    // 子类B想要继承父类A中的所有的属性和方法（私有+公有） B.prototype = new A;
+    // 原型继承的特点：他是把父类私有的+公有的都继承到了子类原型上（子类公有）
+    //
+</script>
+</body>
+</html>

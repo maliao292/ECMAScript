@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var  obj = {name:'Mario',age:19};
+    Object.prototype.aa = function () {
+        console.log(this)
+    }
+
+    console.log(obj);
+    for (var key in obj){
+        // obj.propertyIsEnumerable(key)  判断 key  是不是 obj 的可枚举属性  自定义公有属性 属于 不可枚举
+        if(obj.propertyIsEnumerable(key)){
+            console.log(key);
+        }
+        // 或者
+        if(obj.hasOwnProperty(key)){
+            console.log(key)
+        }
+    }
+
+
+</script>
+</body>
+</html>
