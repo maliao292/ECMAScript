@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    /*
+    * 正则：处理字符串的规则
+    * */
+    var reg = /\d/;  // 包含数字
+    reg.test('你好2016'); // true
+
+    /*
+    * 获取 匹配内容 exec()
+    * */
+    console.log(reg.exec('你好,32016'))
+
+
+    /*创建正则的方式*/
+    // var reg = /\d/;
+    // var = new RegExp('');
+
+    // 区别：
+
+    /* 学习正则 */
+    console.dir(RegExp.prototype);
+</script>
+</body>
+</html>

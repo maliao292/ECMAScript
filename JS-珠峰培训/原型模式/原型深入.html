@@ -5,13 +5,32 @@
     <title>原型深入</title>
 </head>
 <body>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
+<ul id="uls">
+    <li>26</li>
+    <li>28</li>
+    <li>3</li>
+    <li>96</li>
+    <li>35</li>
+</ul>
 <script>
-    
+
+
+    var uls = document.getElementById('uls');
+    var lis = uls.getElementsByTagName('li');
+    var liarr = new Array();
+    for(var i=0;i<lis.length;i++){
+        liarr.push(lis[i])
+    }
+    liarr.sort(function (a,b) {
+        return parseFloat(a.innerHTML)-parseFloat(b.innerHTML)
+    })
+
+
+    var lihtml = document.createDocumentFragment();
+    for(var a=0;a<liarr.length;a++){
+        lihtml.appendChild(liarr[a]);
+    }
+    uls.appendChild(lihtml);
 </script>
 </body>
 </html>
