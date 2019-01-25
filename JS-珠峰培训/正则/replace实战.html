@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="../../js/jquery-1.8.2.min.js"></script>
+<script>
+    /* replace */
+    // 1、获取一个字符串中出现次数最多的字符 获取出现次数
+    var obj = {};
+    var str1 = "mmmmmmmmmmmmzhufengpeixunyangfanqihang";
+    str1.replace(/[a-zA-Z]/g,function (e) {
+        // console.log(e)
+        if(obj[e]){
+            obj[e]++;
+        }else{
+            obj[e] = 1;
+        }
+    });
+
+    var objarr = [];
+    $.each(obj,function(v,i){
+        objarr.push([i,v]);
+    });
+    objarr.sort(function (a,b) {
+        return b[0]-a[0]
+    });
+
+
+    /*  */
+    var str2 = "my name is {0},my age is {1},I come from {2},I love {3}~";
+    var ary2 = ['阿扎西',15,'china','JS'];
+    var str2s = str2.replace(/{(\d)}/g,function (e,a) {
+        /*console.log(e);*/
+        return ary2[a];
+    })
+    // console.log(str2s)
+
+    function reFormat(str){
+        return str.replace(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})$/, "$1-$2-$3 $4:$5:$6");
+    }
+    var str = '20170306122209';// yyyyMMddHHmmss格式
+
+    // console.log(reFormat(str));// 2017-03-06 12:22:09 ,转换为了yyyy-MM-dd HH:mm:ss
+    // var a = 1;
+    //  console.log(a.toString(2));
+    //  console.log((2).toString(2));
+    // var ary21 = [];
+     // console.log(Object.prototype.toString.call(ary21));
+     /*[object Array]*/
+
+</script>
+</body>
+</html>

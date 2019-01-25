@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap-table/bootstrap-3.3.7-dist/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap-table/bootstrap-table.css"/>
+    <title>Title</title>
+</head>
+<body>
+<table id="data-table"></table>
+<script src="bootstrap-table/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="bootstrap-table/bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="bootstrap-table/bootstrap-table.js" type="text/javascript" charset="utf-8"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.13.1/locale/bootstrap-table-zh-CN.min.js"></script>
+<script>
+    $(function () {
+        /*        var xhr = new XMLHttpRequest();
+                xhr.open("post", "/getList");
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState === 4 && /2\d/.test(xhr.status)) {
+                        console.log(JSON.parse(xhr.responseText))
+                        initTable()
+                    }
+                };
+                xhr.send();*/
+        var $table = $("#data-table")
+
+        function initTable() {
+            //先销毁表格
+            $table.bootstrapTable('destroy');
+            //再初始化表格
+            $table.bootstrapTable({
+                striped: true,
+                url: "/getList",
+                // url: "json/custom.json",
+                method: "GET",
+                contentType: "applivation/json",
+                height: 300,
+                //显示刷新按钮
+                showRefresh: true,
+                responseHandler: function (res) {
+                    return res.data
+                },
+                columns: [{
+                    field: 'state', //id
+                    sortTab:true,
+                    checkbox: true, //checkbox
+                    align: 'center', //对其方式
+                    valign: 'middle' //对其方式
+                }, {
+                    title: '用户编号',
+                    field: 'id',
+                    align: 'center',
+                    valign: 'middle',
+                }, {
+                    title: '作者',
+                    field: 'name',
+                    align: 'center',
+                    valign: 'middle'
+                }, {
+                    title: '年龄',
+                    field: 'age',
+                    align: 'center',
+                    valign: 'middle'
+                }, {
+                    title: '联系方式',
+                    field: 'phone',
+                    align: 'center',
+
+                } , {
+                    title: '操作',
+                    field: 'operate',
+                    align: 'center',
+                    events: window.operateEvents,
+                    formatter: genderOpt //如需操作行数据,直接添加formatter对应函数名参数分别为value, row, index
+                }]
+            })
+        }
+        //return还可以return字符串拼接
+        function genderOpt() {
+            /**
+             * 自定义列内容
+             */
+            return [
+                '<a class="trbtn-edit" href="javascript:void(0)" title="编辑">',
+                '编辑',
+                '</a>  ',
+                '<a class="trbtn-remove" href="javascript:void(0)" title="删除">',
+                '删除',
+                '</a>'
+            ].join('');
+        }
+        //操作事件建议卸载内部,防止第一次点击操作不生效
+        window.operateEvents = {
+            /**
+             * 注册操作按钮事件
+             */
+            'click .trbtn-edit': function(e, value, row, index) {
+                console.log(row)
+            },
+            'click .trbtn-remove': function(e, value, row, index) {
+                console.log('删除')
+            }
+        };
+        initTable()
+        /*************************** end ***********************************/
+    });
+
+
+</script>
+</body>
+</html>

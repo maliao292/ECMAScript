@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner {
+            margin: 1000px auto 500px;
+            width: 300px;
+            height: 200px;
+            background: url("../../image/default.jpg") no-repeat center center #e1e1e1;
+        }
+
+        .banner img {
+            display: none;
+            width: 100%;
+            height: 100%;
+        }
+        #content{
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <div class="banner" id="banner">
+        <img src="" trueImg="../../image/1001.png">
+    </div>
+</div>
+
+<script src="../../js/utils.js"></script>
+<script>
+    /*
+    *保证页面的 打开速度
+    *原理：
+    * 第一屏：先给 默认图片 5K内，当首屏内容加载完成开始加载
+    * 其他：给默认图片  滚动到对应区域 加载真实
+    *
+    * */
+    var banner = document.getElementById('banner'), imgFir = banner.getElementsByTagName('img')[0];
+    var par = banner.offsetParent
+   /* console.log(par.offsetHeight);
+    console.log(par.getBoundingClientRect());*/
+
+    // console.dir(document.documentElement['clientHeight'])
+    window.onscroll = function () {
+        if(banner.isloads){
+            return;
+        }
+        var A = banner.offsetHeight + utils.offset(banner).top;
+        var B = utils.win("clientHeight")+utils.win('scrollTop');
+
+       if(A<=B){
+           var oImg = new Image();
+           oImg.src = imgFir.getAttribute('trueImg');
+           oImg.onload = function () {
+               imgFir.src = this.src;
+               imgFir.style.display="block";
+               /*当图片正常加载 处理*/
+
+           }
+           banner.isloads = true;
+       }
+    }
+
+
+</script>
+</body>
+</html>

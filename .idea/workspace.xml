@@ -2,13 +2,176 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a47c1f9-1a87-4ca7-8518-389c6487516e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/正则/作用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/正则/元字符应用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/正则/正则的创建方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/正则/简单应用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/正则/编写简单的正则.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Ajax/js.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/Node知识.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/bootstrap-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/bootstrap-table/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/json/custom.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/crm/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/newapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/server/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/server/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/server/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/Node/server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/03多张图片延迟加载.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/default.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/jd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/img/notic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/js/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/json/newsList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS-珠峰培训/正则/replace实战.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/bg0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/bg4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS-珠峰培训/原型模式/原型深入.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS-珠峰培训/原型模式/原型深入.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS-珠峰培训/正则/简单应用.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS-珠峰培训/正则/简单应用.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +186,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="简单应用.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS-珠峰培训/正则/简单应用.html">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/crm/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="777">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="300">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/crm/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/crm/json/custom.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1575">
+              <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -37,9 +218,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML_NEW" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="HTML_NEW" />
+        <option value="package_json" />
       </list>
     </option>
   </component>
@@ -58,39 +241,28 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/JS-珠峰培训/工厂模式/构造函数扩展.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/JS-珠峰培训/Node/newapi.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JS-珠峰培训/正则/replace实战.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/02.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JS高级/继承和聚合/extend.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/JS高级/高级类/class01.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/JS-珠峰培训/正则/简单应用.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JS-珠峰培训/Node/crm/server.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/JS-珠峰培训/正则/正则的创建方式.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JS-珠峰培训/Node/crm/index.html" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/JS-珠峰培训/原型模式/原型新增多方法.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/JS-珠峰培训/原型模式/create().html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/JS-珠峰培训/正则/元字符应用.html" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/JS高级/继承和聚合/extend.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/03多张图片延迟加载.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JS-珠峰培训/Node/server/server.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/JS-珠峰培训/原型模式/原型扩展和this.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/JS-珠峰培训/Node/server.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/JS-珠峰培训/原型模式/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/API.html" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/JS高级/高级类/class01.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/能提交吗.html" />
-        <option value="$PROJECT_DIR$/style/固定时间段输出.html" />
-        <option value="$PROJECT_DIR$/style/时间和时间戳的转换.html" />
-        <option value="$PROJECT_DIR$/固定时间段输出.html" />
-        <option value="$PROJECT_DIR$/rem_em==rem.html" />
-        <option value="$PROJECT_DIR$/CSS_线性渐变.html" />
-        <option value="$PROJECT_DIR$/特殊实例/凹角的效果.html" />
-        <option value="$PROJECT_DIR$/JSON数据、字符串转换.html" />
-        <option value="$PROJECT_DIR$/时间和时间戳的转换.html" />
-        <option value="$PROJECT_DIR$/../plug-in/drag/index.html" />
-        <option value="$PROJECT_DIR$/CSS3_vh_vw_vmin_vmax.html" />
-        <option value="$PROJECT_DIR$/特殊实例/设置Tbody 滚动.html" />
-        <option value="$PROJECT_DIR$/ES6/exportImport_import.js" />
-        <option value="$PROJECT_DIR$/JS高级/高级类/JS高级类下.js" />
-        <option value="$PROJECT_DIR$/JS高级/高级类/index.html" />
-        <option value="$PROJECT_DIR$/JS高级/高级类/class01.js" />
-        <option value="$PROJECT_DIR$/JS高级/继承和聚合/index.html" />
-        <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/useStylus.html" />
         <option value="$PROJECT_DIR$/特殊实例/this.html" />
         <option value="$PROJECT_DIR$/this.html" />
         <option value="$PROJECT_DIR$/JS-珠峰培训/单例模式.html" />
@@ -116,12 +288,43 @@
         <option value="$PROJECT_DIR$/JS-珠峰培训/正则/index.html" />
         <option value="$PROJECT_DIR$/JS-珠峰培训/正则/元字符应用.html" />
         <option value="$PROJECT_DIR$/JS-珠峰培训/正则/正则的创建方式.html" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/正则/实战.html" />
         <option value="$PROJECT_DIR$/JS-珠峰培训/正则/简单应用.html" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/正则/replace实战.html" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/01.html" />
+        <option value="$PROJECT_DIR$/js/utils.js" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/02.html" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/多张图片延迟加载.html" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/03多张图片延迟加载.html" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node.html" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/1.js" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/newapi.js" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/Node知识.js" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/b.js" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/a.js" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/sever.js" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/css/index.css" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/js/index.js" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/server/index.html" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/server.js" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/index.html" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/server/server.js" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Ajax/js.txt" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/crm/json/package.json" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/crm/server.js" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/crm/json/custom.json" />
+        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/crm/index.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -130,10 +333,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="942" />
-    <option name="y" value="12" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="208" />
+    <option name="y" value="65" />
+    <option name="width" value="1518" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -143,6 +346,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,30 +363,70 @@
               <item name="ECM" type="b2602c69:ProjectViewProjectNode" />
               <item name="ECM" type="462c0819:PsiDirectoryNode" />
               <item name="JS-珠峰培训" type="462c0819:PsiDirectoryNode" />
-              <item name="正则" type="462c0819:PsiDirectoryNode" />
+              <item name="Node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ECM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECM" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-珠峰培训" type="462c0819:PsiDirectoryNode" />
+              <item name="Node" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ECM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECM" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-珠峰培训" type="462c0819:PsiDirectoryNode" />
+              <item name="Node" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ECM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECM" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-珠峰培训" type="462c0819:PsiDirectoryNode" />
+              <item name="Node" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-table" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ECM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECM" type="462c0819:PsiDirectoryNode" />
+              <item name="JS-珠峰培训" type="462c0819:PsiDirectoryNode" />
+              <item name="Node" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-table" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.0.0" />
     <property name="last_opened_file_path" value="D:/web/product" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Mario\ECM" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Mario\ECM\JS-珠峰培训\正则" />
-      <recent name="E:\Mario\ECM\JS高级\继承和聚合" />
-      <recent name="E:\Mario\ECM\ES6" />
+      <recent name="E:\Mario\ECM\JS-珠峰培训\Node" />
+      <recent name="E:\Mario\ECM\JS-珠峰培训\Node\server" />
+      <recent name="E:\Mario\ECM\JS-珠峰培训\图片 延迟加载" />
+      <recent name="E:\Mario\ECM\image" />
+      <recent name="E:\Mario\ECM\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Mario\ECM\JS-珠峰培训\Node\crm" />
+      <recent name="E:\Mario\ECM\JS-珠峰培训\Node\server" />
+      <recent name="E:\Mario\ECM\image" />
       <recent name="E:\Mario\ECM" />
     </key>
   </component>
@@ -198,28 +442,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.简单应用.html">
+  <component name="RunManager" selected="Node.js.server.js (1)">
+    <configuration name="01.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/图片 延迟加载/01.html" />
+    <configuration name="03多张图片延迟加载.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/图片 延迟加载/03多张图片延迟加载.html" />
     <configuration name="CSS3_vh_vw_vmin_vmax.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/ECM/CSS3_vh_vw_vmin_vmax.html" />
-    <configuration name="原型继承.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/原型模式/原型继承.html" />
-    <configuration name="正则的创建方式.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/正则/正则的创建方式.html" />
     <configuration name="简单应用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/正则/简单应用.html" />
-    <configuration name="简单应用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/正则/简单应用.html" />
-    <configuration name="作用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/正则/作用.html" />
-    <configuration name="简单应用.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/正则/简单应用.html" />
-    <configuration name="create().html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/原型模式/create().html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/Node/crm/index.html" />
+    <configuration name="replace实战.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/正则/replace实战.html" />
+    <configuration name="1.js" type="NodeJSConfigurationType" factoryName="Node.js" nameIsGenerated="true" path-to-js-file="1.js" working-dir="$PROJECT_DIR$/JS-珠峰培训/Node" />
+    <configuration name="b.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="b.js" working-dir="$PROJECT_DIR$/JS-珠峰培训/Node" />
+    <configuration name="newapi.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="newapi.js" working-dir="$PROJECT_DIR$/JS-珠峰培训/Node" />
+    <configuration name="server.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/JS-珠峰培训/Node/crm" />
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS-珠峰培训/Node/server.js" working-dir="$PROJECT_DIR$/JS-珠峰培训/Node" />
     <list>
+      <item itemvalue="Node.js.1.js" />
       <item itemvalue="JavaScript Debug.CSS3_vh_vw_vmin_vmax.html" />
-      <item itemvalue="JavaScript Debug.create().html" />
-      <item itemvalue="JavaScript Debug.原型继承.html" />
-      <item itemvalue="JavaScript Debug.正则的创建方式.html" />
+      <item itemvalue="JavaScript Debug.replace实战.html" />
+      <item itemvalue="JavaScript Debug.01.html" />
       <item itemvalue="JavaScript Debug.简单应用.html" />
+      <item itemvalue="Node.js.newapi.js" />
+      <item itemvalue="Node.js.server.js" />
+      <item itemvalue="Node.js.server.js (1)" />
+      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.简单应用.html" />
-        <item itemvalue="JavaScript Debug.正则的创建方式.html" />
-        <item itemvalue="JavaScript Debug.原型继承.html" />
-        <item itemvalue="JavaScript Debug.create().html" />
+        <item itemvalue="Node.js.server.js (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.server.js" />
+        <item itemvalue="Node.js.newapi.js" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +550,21 @@
       <workItem from="1547089750073" duration="6000" />
       <workItem from="1547448348707" duration="5678000" />
       <workItem from="1547513104070" duration="7096000" />
-      <workItem from="1547521342005" duration="14232000" />
+      <workItem from="1547521342005" duration="14286000" />
+      <workItem from="1547598296792" duration="590000" />
+      <workItem from="1547619245447" duration="6515000" />
+      <workItem from="1547702483549" duration="11270000" />
+      <workItem from="1547772135230" duration="8900000" />
+      <workItem from="1547862418102" duration="15080000" />
+      <workItem from="1548032089223" duration="965000" />
+      <workItem from="1548038886582" duration="13300000" />
+      <workItem from="1548061042644" duration="1249000" />
+      <workItem from="1548116286755" duration="13725000" />
+      <workItem from="1548202786266" duration="14254000" />
+      <workItem from="1548311984991" duration="722000" />
+      <workItem from="1548312744679" duration="15000" />
+      <workItem from="1548312789325" duration="6840000" />
+      <workItem from="1548375331698" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1530861161543</created>
@@ -455,11 +720,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547018843887</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="正则">
+      <created>1547543889149</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1547543889149</updated>
+    </task>
+    <task id="LOCAL-00024" summary="正则">
+      <created>1547543903772</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1547543903772</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260142000" />
+    <option name="totallyTimeSpent" value="354222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,26 +750,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="942" y="12" width="960" height="1040" extended-state="0" />
+    <frame x="208" y="65" width="1518" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27657267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17162162" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021075" side_tool="true" weight="0.32705098" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021692" side_tool="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978308" weight="0.30429733" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49789253" weight="0.32815966" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40576497" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37398374" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329849" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,6 +777,32 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.html" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -510,173 +815,14 @@
     <MESSAGE value="现在 后台 返回 数据 ‘流’" />
     <MESSAGE value="引入js" />
     <MESSAGE value="...高级js" />
-    <option name="LAST_COMMIT_MESSAGE" value="...高级js" />
+    <MESSAGE value="正则" />
+    <option name="LAST_COMMIT_MESSAGE" value="正则" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/能提交吗.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/能提交吗.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/正则.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS_线性渐变.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/特殊实例/凹角的效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3_rem_em.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/特殊实例/设置Tbody 滚动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="166" column="7" lean-forward="true" selection-start-line="166" selection-start-column="7" selection-end-line="166" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/栈和队列.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/exportImport_import.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/exportImport_export.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3_vh_vw_vmin_vmax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSON数据、字符串转换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../plug-in/drag/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lessTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS高级/高级类/JS高级类下.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS高级/高级类/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS高级/高级类/class01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1318">
-          <caret line="79" column="14" lean-forward="true" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://$PROJECT_DIR$/call(),apply().html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS高级/继承和聚合/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/this.html">
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/crm/json/custom.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/对object 某项排序.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS高级/继承和聚合/extend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象--ES6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/面向对象--ES5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -691,13 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/下载返回流数据.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="430" lean-forward="true" selection-start-line="430" selection-end-line="430" />
         </state>
       </provider>
     </entry>
@@ -849,10 +988,167 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/正则/replace实战.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JS-珠峰培训/正则/简单应用.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="25">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node.html" />
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/1.js" />
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/03多张图片延迟加载.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="135" column="35" lean-forward="true" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/图片 延迟加载/01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/newapi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/Node知识.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS高级/继承和聚合/extend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/b.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSS3_rem_em.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/server/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/server/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/server/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/下载返回流数据.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="430" lean-forward="true" selection-start-line="430" selection-end-line="430" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Ajax/js.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/node_modules/ajv/scripts/info" />
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/crm/json/custom.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/crm/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/Node/crm/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
         </state>
       </provider>
     </entry>
