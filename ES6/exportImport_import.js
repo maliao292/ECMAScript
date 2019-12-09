@@ -24,4 +24,4 @@ import {foo} from '../bar.mjs';
 /*
 import {foo} from 'bar.mjs';
 import {foo} from 'utils/bar.mjs';
-*/
+ */

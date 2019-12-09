@@ -6,3 +6,6 @@ export function square(x) {
 export function add (x, y) {
 	return x + y;
 }
+
+/*或者批量导出*/
+// export
