@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+
+/*    var xhr =new XMLHttpRequest();
+    xhr.open("get","https://matchweb.sports.qq.com/matchUnion/calendar?from=web&columnId=100000");
+    xhr.onreadystatechange = function () {
+        console.log(xhr.responseText)
+    };
+    xhr.send();*/
+</script>
+<script src="index.js"></script>
+<script>
+    /*
+    *todo 实现 JSONP 步骤
+    *
+    * 1、我们首先把需要请求数据的那个跨越的API接口的地址赋值给SCRIPT SRC
+    * 2、把当前页面的一个函数名当做参数值，传递给（腾讯）跨域请求数据的服务器（URL问好传参）
+    * 3、（腾讯）跨域请求数据的服务器接收道请求后，需要进行特殊处理：把你传递的函数名和他需要给你的数据拼接成一个字符串 例如：我们函数名是fn,他准备好的数据 'fn([{"name":"zhufeng"}]) '我传递的函数名（需要给我们的数据）
+    * 4、最后（腾讯）把服务器吧准备的数据通过HTTP协议返回给客户端，
+    *https://matchweb.sports.qq.com/team/list?columnId=100000&competitionId=100
+    * */
+</script>
+<script src="json/jquery-1.8.2.min.js"></script>
+<script>
+/*    function fn(data) {
+        console.log(data)
+    }*/
+$.ajax({
+    type : "get",
+    async:false,
+    url : "https://matchweb.sports.qq.com/team/list?columnId=100000&competitionId=100",
+    // url : "http://192.168.20.79:82/getList",
+    dataType : "jsonp",//数据类型为jsonp
+    jsonp: "callback",//服务端用于接收callback调用的function名的参数
+    success : function(data){
+       console.log(data)
+    },
+    error:function(){
+        alert('fail');
+    }
+});
+</script>
+<!--<script src="http://192.168.20.79:82/getList?callback=fn"></script>-->
+</body>
+</html>

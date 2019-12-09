@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="text" name="search" id="search" value="" />
+		<ul id="list">
+			<li>列表</li>
+		</ul>
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript">
+			/* exec match */
+			var arr = [1,25,12,58,5,96,87,45,62,58,52];
+//var str = "2a5sda651fa3s15f6a5sf4"
+//			var reg = new RegExp('2');
+			
+			/*console.log(str.match(reg));
+			console.log(reg.test(str));*/
+			
+			function setList(arr){
+				arr = arr||['暂无数据'];
+				var newhtml = arr.map(function(v,i){
+					return "<li>"+v+"</li>"
+				}).join('')
+				$('#list').append(newhtml);
+//				arr.forEach(function(v,i){
+//					var newhtml
+//				})
+			}
+			setList(arr);
+			
+			$('#search').on("input",function(){
+				$('#list').empty();
+				var newarr = [];
+				var reg = new RegExp($(this).val());
+				$.each(arr,function(i,v){
+					if(reg.test(v)){
+						newarr.push(v)
+						//console.log($(this).val())
+					}
+				})
+					
+				setList(newarr);
+//				console.log($(this).val().exec());
+			})
+		</script>
+	</body>
+</html>

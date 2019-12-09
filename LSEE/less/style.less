@@ -1,0 +1,57 @@
+@color: #f00; // 定义变量
+@widht: 100px;
+#header {
+    color: @color;
+}
+
+h2 {
+    color: @color;
+    border: 1px solid #333;
+    height: @widht;
+}
+
+// 字符串 拼接
+@myurl: '1.jpeg';
+h2 {
+    background: url('../img/@{myurl}');
+}
+
+// 选择器 拼接
+@homepage: home;
+.@{homepage}_map {
+    font-size: @widht;
+}
+
+// media query 变量  ~ 后不会被编译
+@singleQUery: ~"(max-width:768px)";
+@media screen and @singleQUery {
+    div {
+        background: blue;
+    }
+}
+
+// 变量引用 变量 不好 别用 
+* {}
+
+// 混合(不带参数)
+.width {
+    width: 100px;
+    height: 50px;
+    border: 1px solid pink;
+}
+
+.long {
+    // 只是引用了 .widht 的属性
+    .width;
+}
+
+// 混合(参数)
+#height(@widthS) {
+    height: 500px;
+    width: @widthS;
+    background: #00458A;
+}
+
+.men {
+    #height(10%);
+}
