@@ -1,0 +1,272 @@
+$blue: blue;
+$red: red;
+a {
+  color: $blue
+}
+
+b {
+  background: $red;
+  & > a {
+    color: $blue;
+  }
+
+  > button {
+    color: #000;
+  }
+  &:hover {
+    color: #000;
+  }
+  div & {
+    font-size: 18px;
+    a {
+      color: #999;
+    }
+  }
+  div > {
+    em {
+      color: #000;
+    }
+  }
+}
+
+/* 属性嵌套 */
+nav {
+  border: {
+    style: solid;
+    width: 2px;
+    color: #333;
+  }
+
+  border: 1px solid #444 {
+    left: 0px;
+    right: 0px;
+    /* 注释会报错吗  */
+  }
+;
+}
+
+/* 导入文件 sass */
+@import 'common.scss';
+
+body {
+  @import 'common.scss';
+}
+
+@import "style.css";
+
+// 注释  不会生成在css文件中
+
+/* 混合器 类似函数 @mixin*/
+
+@mixin rounded-corners {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.min {
+  @include rounded-corners;
+}
+
+@mixin no-bullets {
+  list-style: none;
+  li {
+    list-style-image: none;
+    list-style-type: none;
+  }
+}
+
+ul.palin {
+  @include no-bullets;
+}
+
+/* 传参 */
+@mixin gradient($direction,$c1,$c2) {
+  background: linear-gradient(to $direction, $c1, $c2);
+}
+
+button {
+  @include gradient(left, #f00, #0ff)
+}
+
+// 指定参数
+@mixin setb($w,$h) {
+  width: $w;
+  height: $h;
+}
+
+// 指定参数 不在乎传参顺序
+a {
+  @include setb($h: 30px, $w: 15px)
+}
+
+// 未指定  需要注意顺序
+b {
+  @include setb(15px, 30px)
+}
+
+// 默认参数
+$c1: #852;
+@mixin setcolor($c:$c1) {
+  background: $c;
+}
+
+span {
+  @include setcolor()
+}
+
+span {
+  @include setcolor(#666)
+}
+
+$c: #999;
+span {
+  @include setcolor($c)
+}
+
+//  继承
+.error {
+  color: #f00;
+}
+
+.bigerror {
+  @extend .error;
+  border-width: 3px;
+}
+
+a:hover {
+  color: #555;
+}
+
+b {
+  @extend a:hover;
+  @extend .error;
+  font-style: italic;
+}
+
+b {
+  @extend a:hover, .error;
+  font-style: italic;
+}
+
+.a1 .a2 {
+  color: #333;
+}
+
+.a3 {
+  @extend .a2;
+  font-style: italic;
+}
+
+.a4 {
+  @extend .a1;
+  font-style: italic;
+}
+
+$a: 20px;
+@media print {
+  .one {
+    width: $a;
+  }
+}
+
+/* sass 函数 */
+/* 去除引号 */
+
+.test1 {
+  content: unquote("dsa");
+}
+
+/* 添加引号 */
+.test2 {
+  content: quote(dsa);
+}
+
+.test3 {
+  content: quote("dsa");
+}
+
+.test4 {
+  content: quote("a b");
+}
+
+/* 百分比 */
+.test5 {
+  width: percentage(.2);
+  height: percentage(10px / 3px);
+}
+
+/* join 分割 */
+// 只能分割两组数据，且以第一组的分隔符（逗号或者空格）为准
+// join 接收第三个参数 指定分隔符 comma 逗号  space 空格
+a {
+  padding: join((20px 30px), (15px, 60px), comma)
+}
+
+b {
+  padding: join((20px 30px), (15px, 60px), space)
+}
+
+/* if */
+p {
+  @if 1+1 == 2 {
+    border: 1px solid #333;
+  }
+  @if (5<3) {
+    border: 1px dotted red;
+  }
+  @if (not 1-1==0) {
+    border: 1px dotted red;
+  }
+
+  @if (1-1==0 and 1+1==2) {
+    border: 1px dotted blue;
+  }
+
+  @if (1-1==0 & & 1+1==2) {
+    border: 1px dotted #0f0;
+  }
+
+  @if (1-1==0 or 1+1==3) {
+    border: 1px dotted #0ff;
+  }
+
+}
+
+/* 循环 */
+@for $i from 1 to 10 {
+  .colorCon#{$i} {
+    border: #{$i}px solid #666;
+  }
+}
+
+@function sums($start , $end) {
+  $num: 0;
+  @for $i from $start to $end {
+    $num: $num+$i;
+  }
+  @return $num;
+}
+
+.er {
+  width: sums(1, 10);
+}
+
+$wi: 6;
+@while $wi>0 {
+  .item_#{$wi} {
+    width: #{$wi}px;
+  }
+  $wi: $wi - 1;
+}
+
+
+
+
+
+
+
+
+
+
+

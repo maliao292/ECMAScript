@@ -55,3 +55,63 @@ h2 {
 .men {
     #height(10%);
 }
+
+/* 高级参数用法 */
+.border(){
+    border: 1px solid #ccc;
+}
+.mixin1(...){
+    padding: @arguments;
+}
+.mixin2(@a:1;...){
+    margin: @arguments;
+}
+
+.div1{
+    .border();
+    .mixin1(20px 30px 40px 50px)
+}
+
+/* 模式匹配与Guard达式 */
+.m(red,@padd){ // red 为定义的常量  调用时候  必须也为red
+    color: red;
+    padding: @padd;
+}
+.m2(@red,@padd){
+    color: @red;
+    padding: @padd;
+}
+
+.g1{
+    .m(red;20px)
+}
+.g2{
+    .m2(green;20px)
+}
+
+
+/* 条件混合 */
+.mixin(@a) when(lightness(@a)>=50%){
+    background-color: black;
+}
+.mixin(@a) when(lightness(@a)<50%){
+    background-color: white;
+}
+
+.mixin(@a){
+    color: @a;
+}
+.meng{
+    .mixin(#880)
+}
+.long{
+    .mixin(#887)
+}
+
+/* 命名空间 */
+
+
+  
+
+
+
