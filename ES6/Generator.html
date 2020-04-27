@@ -24,9 +24,9 @@
 
     var hw = helloGenertor();
     console.log(JSON.stringify(hw.next())) //把object 转换成 string 字符串
-    console.log(JSON.stringify(hw.next()))
-    console.log(JSON.stringify(hw.next()))
-    console.log(JSON.stringify(hw.next()))
+    // console.log(JSON.stringify(hw.next()))
+    // console.log(JSON.stringify(hw.next()))
+    // console.log(JSON.stringify(hw.next()))
 
     // {"value":"hello","done":false}
     // value 表示当前值   done 表示 当前 遍历 是否结束
@@ -44,7 +44,6 @@
         yield 3;
         yield 'a';
     }
-
     for (let v of foo()) {
         console.log(v);
     }

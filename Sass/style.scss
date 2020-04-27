@@ -234,6 +234,8 @@ p {
 }
 
 /* 循环 */
+
+/* for */
 @for $i from 1 to 10 {
   .colorCon#{$i} {
     border: #{$i}px solid #666;
@@ -251,7 +253,7 @@ p {
 .er {
   width: sums(1, 10);
 }
-
+/*while*/
 $wi: 6;
 @while $wi>0 {
   .item_#{$wi} {
@@ -260,8 +262,12 @@ $wi: 6;
   $wi: $wi - 1;
 }
 
-
-
+/*each*/
+@each $pic in a,b,c,d,e,f{
+  ##{$pic}{
+    background: url('../img/#{$pic}.png');
+  }
+}
 
 
 

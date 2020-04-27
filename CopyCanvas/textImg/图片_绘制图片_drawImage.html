@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>drawImage</title>
+    <style>
+        .canvas{
+            border:1px dashed #ccc;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+    <script>
+        // http://img1.imgtn.bdimg.com/it/u=3581424731,749106702&fm=26&gp=0.jpghttp://img1.imgtn.bdimg.com/it/u=3581424731,749106702&fm=26&gp=0.jpg
+        window.onload = ()=>{
+            let oCanvas = document.getElementById('canvas');
+            let ctx = oCanvas.getContext('2d');
+            let img = 'http://gss0.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/8435e5dde71190ef0f3ba801cc1b9d16fcfa602f.jpg';
+            let oImg = new Image();
+            oImg.src = img;
+            oImg.onload = function(){
+                ctx.drawImage(oImg,300,100,400,400,0,0,960,800)
+            }
+
+        }
+    </script>
+</head>
+<body>
+<canvas class="canvas" id="canvas" width="960" height="800"></canvas>
+</body>
+</html>
