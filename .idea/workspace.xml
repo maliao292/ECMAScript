@@ -2,25 +2,179 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a47c1f9-1a87-4ca7-8518-389c6487516e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CopyCanvas/textImg/图片_平铺图片_createPattern.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CopyCanvas/textImg/图片_绘制图片_drawImage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibili_ES5构造函数/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibili_ES5构造函数/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/iconfont/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/iconfont/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/iconfont/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/iconfont/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/iconfont/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/js/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/styles/tab.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/正则/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/正则/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/3、函数进阶/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/3、函数进阶/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/PPT/01-JavaScript面向对象.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/PPT/01-JavaScript面向对象（目标）.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/01-创建类和对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/02-类中添加方法(1).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/03-类的继承(1).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/04-super关键字调用父类普通函数(1).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/05-子类继承父类方法同时扩展自己方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/06-使用类注意事项.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/07-面向对象案例/js/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/07-面向对象案例/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/素材/09-面向对象案例/iconfont/iconfont(1).eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/素材/09-面向对象案例/iconfont/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/素材/09-面向对象案例/iconfont/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/素材/09-面向对象案例/iconfont/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/素材/09-面向对象案例/iconfont/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/素材/09-面向对象案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/素材/09-面向对象案例/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/素材/09-面向对象案例/styles/tab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/PPT/01-函数进阶.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/PPT/01-函数进阶（目标）.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/01-函数的定义和调用方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/02-函数的调用方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/03-this的指向.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/04-改变函数内this指向call方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/05-改变函数内this指向apply方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/06-改变函数内this指向bind方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/07-开启严格模式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/08-严格模式的变化.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/09-高阶函数-函数可以作为参数传递.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/10-什么是闭包.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/11-闭包的作用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/12-闭包应用-点击li输出索引号.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/13-闭包应用-定时器中的闭包.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/14-闭包应用-打车价格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/15-思考题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/16-什么是递归函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/17-利用递归求1~n的阶乘.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/18-利用递归求1~n的阶乘.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/19-利用递归遍历数据.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/20-浅拷贝.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/21-深拷贝.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/面向对象案例完善/iconfont/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/面向对象案例完善/iconfont/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/面向对象案例完善/iconfont/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/面向对象案例完善/iconfont/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/面向对象案例完善/iconfont/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/面向对象案例完善/js/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/面向对象案例完善/styles/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/面向对象案例完善/styles/tab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/素材/深拷贝浅拷贝.ddd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/PPT/01-构造函数和原型.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/PPT/01-构造函数和原型（目标）.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/01-利用构造函数创建对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/02-静态成员和实例成员.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/03-原型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/04-对象原型__proto__.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/05-原型constructor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/06-原型链.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/07-原型链成员查找规则.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/08-原型对象中this指向.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/09-扩展内置对象方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/10-call方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/11-借用父构造函数继承属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/12-借用原型对象继承方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/13-ES6类的本质.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/14-forEach方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/15-filter筛选数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/16-some查找数组中是否有满足条件的元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/17-商品查询案例-利用数组新增方法操作数据.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/18-forEach和some区别.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/19-trim方法去除两侧空格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/20-Object.keys遍历对象属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/code/21-Object.defineProperty方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第二天/素材/利用原型对象继承方法.ddd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/PPT/ES6.ppt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/PPT/ES6（目标）.ppt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/1.使用let关键字声明变量.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/10.Array.from方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/11.find方法介绍.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/12.findIndex方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/13.includes方法介绍.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/14.模板字符串.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/15.startsWith方法和endsWith方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/16.repeat方法介绍.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/17.Set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/2.经典面试题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/3.使用const关键字声明常量.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/4.数组结构.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/5.对象解构.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/6.箭头函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/7.箭头函数面试题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/8.剩余参数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第五天/code/9.扩展运算符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/PPT/01-正则表达式（目标）.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/PPT/02-正则表达式.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/01-正则表达式在js在使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/02-边界符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/03-字符类.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/04-量词.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/05-用户名验证.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/06-括号总结.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/07-座机号码验证.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/img/arrow-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/img/arrow-prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/img/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/img/jian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/js/reg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/aside_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/bargain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/bg_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/detail_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/detail_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/detail_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/floor-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/floor-1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/floor-1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/floor-1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/floor-1-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/floor-1-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/floor-1-b01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/pre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/08-表单验证/upload/sk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第四天/code/09-替换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/bilibili_ES5构造函数/call.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/bilibili_ES5构造函数/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/bilibili_ES5构造函数/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/bilibili_ES6面向对象进阶/iconfont/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/bilibili_ES6面向对象进阶/iconfont/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/bilibili_ES6面向对象进阶/iconfont/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/bilibili_ES6面向对象进阶/iconfont/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/bilibili_ES6面向对象进阶/iconfont/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/bilibili_ES6面向对象进阶/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/bilibili_ES6面向对象进阶/styles/tab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/bilibili_Object.defineProperty/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bilibili/bilibili_Object.defineProperty/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ES6/Generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/ES6/Generator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili_ES5构造函数/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/07-面向对象案例/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili_ES5构造函数/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/iconfont/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/07-面向对象案例/iconfont/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/iconfont/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/07-面向对象案例/iconfont/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/iconfont/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/07-面向对象案例/iconfont/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/iconfont/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/07-面向对象案例/iconfont/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/iconfont/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/07-面向对象案例/iconfont/iconfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第三天/code/面向对象案例完善/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/js/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/bilibili/bilibili_ES6面向对象进阶/js/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bilibili/bilibili_ES6面向对象进阶/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bilibili_ES6面向对象进阶/styles/tab.css" beforeDir="false" afterPath="$PROJECT_DIR$/bilibili/JavaScript高级/JavaScript 高级第一天/code/07-面向对象案例/styles/tab.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,18 +189,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tab.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bilibili_ES6面向对象进阶/js/tab.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilibili/3、函数进阶/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
+            <state relative-caret-position="75">
+              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bilibili_ES5构造函数/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="时间和时间戳的转换.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/时间和时间戳的转换.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bilibili/3、函数进阶/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -114,10 +281,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/Node知识.js" />
-        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/b.js" />
-        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/a.js" />
-        <option value="$PROJECT_DIR$/JS-珠峰培训/Node/sever.js" />
         <option value="$PROJECT_DIR$/JS-珠峰培训/Node/css/index.css" />
         <option value="$PROJECT_DIR$/JS-珠峰培训/Node/js/index.js" />
         <option value="$PROJECT_DIR$/JS-珠峰培训/Node/server/index.html" />
@@ -164,7 +327,11 @@
         <option value="$PROJECT_DIR$/ES6面向对象进阶/styles/style.css" />
         <option value="$PROJECT_DIR$/ES6面向对象进阶/js/tab.js" />
         <option value="$PROJECT_DIR$/bilibili_ES6面向对象进阶/js/tab.js" />
+        <option value="$PROJECT_DIR$/bilibili_ES5构造函数/index.html" />
         <option value="$PROJECT_DIR$/bilibili_ES5构造函数/index.js" />
+        <option value="$PROJECT_DIR$/bilibili_ES5构造函数/call.js" />
+        <option value="$PROJECT_DIR$/bilibili_Object.defineProperty/index.js" />
+        <option value="$PROJECT_DIR$/bilibili/3、函数进阶/index.js" />
       </list>
     </option>
   </component>
@@ -184,8 +351,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2147" />
-    <option name="y" value="-14" />
+    <option name="x" value="1297" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -197,7 +364,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,12 +374,19 @@
             <path>
               <item name="ECM" type="b2602c69:ProjectViewProjectNode" />
               <item name="ECM" type="462c0819:PsiDirectoryNode" />
-              <item name="bilibili_ES5构造函数" type="462c0819:PsiDirectoryNode" />
+              <item name="bilibili" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ECM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ECM" type="462c0819:PsiDirectoryNode" />
+              <item name="bilibili" type="462c0819:PsiDirectoryNode" />
+              <item name="3、函数进阶" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,7 +394,7 @@
     <property name="SearchEverywhereHistoryKey" value="字符串&#9;FILE&#9;file://E:/Mario/ECM/字符串API.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.0.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../video/IT营大地老师Node.js Koa2视频教程avi版本（课件+源码+视频）/2018年Node.js入门实战视频教程（39讲-IT营大地）/01 NodeJs 简介 安装 开发工具配置 - avi/nodejs软件提示包和webstrom/node-v6.9.5.tar.gz" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/gov-func" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -230,18 +403,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Mario\ECM\bilibili\3、函数进阶" />
+      <recent name="E:\Mario\ECM\bilibili" />
+      <recent name="E:\Mario\ECM" />
       <recent name="E:\Mario\ECM\ES6面向对象进阶" />
       <recent name="E:\Mario\ECM\CopyCanvas\textImg" />
-      <recent name="E:\Mario\ECM" />
-      <recent name="E:\Mario\ECM\备忘录" />
-      <recent name="E:\Mario\ECM\特殊实例" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Mario\ECM\bilibili" />
       <recent name="E:\Mario\ECM\CopyCanvas\textImg" />
       <recent name="E:\Mario\ECM\JS-珠峰培训\Node\crm" />
       <recent name="E:\Mario\ECM\JS-珠峰培训\Node\server" />
       <recent name="E:\Mario\ECM\image" />
-      <recent name="E:\Mario\ECM" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -256,36 +429,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.promise.js">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="01.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/图片 延迟加载/01.html" />
     <configuration name="03多张图片延迟加载.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/图片 延迟加载/03多张图片延迟加载.html" />
     <configuration name="CSS3_vh_vw_vmin_vmax.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/ECM/CSS3_vh_vw_vmin_vmax.html" />
-    <configuration name="Promise.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ECM/ES6/Promise.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:2729/ECM/bilibili/3、函数进阶/index.html" />
     <configuration name="replace实战.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/ECM/JS-珠峰培训/正则/replace实战.html" />
     <configuration name="1.js" type="NodeJSConfigurationType" factoryName="Node.js" nameIsGenerated="true" path-to-js-file="1.js" working-dir="$PROJECT_DIR$/JS-珠峰培训/Node" />
     <configuration name="b.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="b.js" working-dir="$PROJECT_DIR$/JS-珠峰培训/Node" />
+    <configuration name="call.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bilibili/bilibili_ES5构造函数/call.js" working-dir="$PROJECT_DIR$/bilibili/bilibili_ES5构造函数" />
+    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bilibili/bilibili_ES5构造函数/index.js" working-dir="$PROJECT_DIR$/bilibili/bilibili_ES5构造函数" />
+    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bilibili/bilibili_Object.defineProperty/index.js" working-dir="$PROJECT_DIR$/bilibili/bilibili_Object.defineProperty" />
     <configuration name="promise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="promise.js" working-dir="$PROJECT_DIR$/ES6" />
-    <configuration name="server.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/JS-珠峰培训/Node/crm" />
-    <configuration name="server_jsonp.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server_jsonp.js" working-dir="$PROJECT_DIR$/JS-珠峰培训/JSONP" />
-    <configuration name="server_jsonp.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server_jsonp.js" working-dir="$PROJECT_DIR$/JS-珠峰培训/Node/JSONP" />
     <list>
       <item itemvalue="Node.js.1.js" />
       <item itemvalue="JavaScript Debug.CSS3_vh_vw_vmin_vmax.html" />
       <item itemvalue="JavaScript Debug.replace实战.html" />
       <item itemvalue="JavaScript Debug.01.html" />
-      <item itemvalue="Node.js.server.js (1)" />
-      <item itemvalue="Node.js.server_jsonp.js" />
-      <item itemvalue="Node.js.server_jsonp.js (1)" />
-      <item itemvalue="JavaScript Debug.Promise.html" />
+      <item itemvalue="Node.js.b.js" />
       <item itemvalue="Node.js.promise.js" />
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="Node.js.call.js" />
+      <item itemvalue="JavaScript Debug.index.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.call.js" />
+        <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.promise.js" />
-        <item itemvalue="JavaScript Debug.Promise.html" />
-        <item itemvalue="Node.js.server_jsonp.js (1)" />
-        <item itemvalue="Node.js.server.js (1)" />
-        <item itemvalue="Node.js.server_jsonp.js" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +612,11 @@
       <workItem from="1587862371022" duration="1318000" />
       <workItem from="1587863710877" duration="19299000" />
       <workItem from="1587949417034" duration="3250000" />
-      <workItem from="1587966360845" duration="1121000" />
+      <workItem from="1587966360845" duration="7805000" />
+      <workItem from="1588051032555" duration="8503000" />
+      <workItem from="1588120690127" duration="660000" />
+      <workItem from="1588208228366" duration="1198000" />
+      <workItem from="1594172150079" duration="2156000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1530861161543</created>
@@ -652,11 +828,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577091434512</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="sass 循环">
+      <created>1587968702966</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1587968702966</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="500362000" />
+    <option name="totallyTimeSpent" value="519563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,17 +852,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12539515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3308746" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021692" side_tool="true" weight="0.32868758" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978308" weight="0.2780083" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978308" weight="0.53215766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49789253" weight="0.32683983" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37398374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.373444" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -737,52 +921,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="sass 循环" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ES6/Promise.html">
+    <entry file="file://$PROJECT_DIR$/bilibili/3、函数进阶/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="75">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/promise.js">
+    <entry file="file://$PROJECT_DIR$/bilibili/3、函数进阶/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS高级/继承和聚合/extend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/原型模式/原型继承.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/原型模式/原型深入.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/原型模式/原型新增多方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS-珠峰培训/原型模式/原型扩展和this.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="100">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -925,13 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/时间和时间戳的转换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="32" column="35" selection-start-line="25" selection-start-column="3" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/备忘录/echarts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1039,32 +1181,82 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ES6面向对象进阶/index.js" />
-    <entry file="file://$PROJECT_DIR$/bilibili_ES6面向对象进阶/styles/style.css">
+    <entry file="file://$PROJECT_DIR$/bilibili/bilibili_ES6面向对象进阶/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bilibili_ES6面向对象进阶/index.html">
+    <entry file="file://$PROJECT_DIR$/bilibili/bilibili_ES6面向对象进阶/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bilibili_ES5构造函数/js/tab.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bilibili_ES6面向对象进阶/js/tab.js">
+    <entry file="file://$PROJECT_DIR$/bilibili/bilibili_ES6面向对象进阶/js/tab.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
           <caret line="71" column="62" selection-start-line="71" selection-start-column="62" selection-end-line="71" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bilibili_ES5构造函数/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/bilibili/bilibili_ES5构造函数/call.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilibili/bilibili_ES5构造函数/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilibili/bilibili_ES5构造函数/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilibili/bilibili_Object.defineProperty/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilibili/bilibili_Object.defineProperty/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilibili/3、函数进阶/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bilibili/3、函数进阶/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/时间和时间戳的转换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="45" selection-start-line="45" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

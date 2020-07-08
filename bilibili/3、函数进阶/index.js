@@ -1,10 +1,4 @@
-// function Father(name){
-//     this.name = name;
-// }
-let Father = {
-    name:'mario'
-}
-Object.defineProperty(Father,'age',{
-    value:1000
-});
-console.log(Father);
+// function f() {}
+var f = new Function('a','b','console.log(a+b)');
+f(1,2)
+console.dir(f);

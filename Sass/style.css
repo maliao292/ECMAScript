@@ -1,0 +1,204 @@
+@charset "UTF-8";
+@import url(style.css);
+a {
+  color: blue; }
+
+b {
+  background: red; }
+  b > a {
+    color: blue; }
+  b > button {
+    color: #000; }
+  b:hover {
+    color: #000; }
+  div b {
+    font-size: 18px; }
+    div b a {
+      color: #999; }
+  b div > em {
+    color: #000; }
+
+/* 属性嵌套 */
+nav {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #333;
+  border: 1px solid #444;
+    border-left: 0px;
+    border-right: 0px;
+  /* 注释会报错吗  */ }
+
+/* 导入文件 sass */
+* {
+  margin: 0;
+  padding: 10px; }
+
+body * {
+  margin: 0;
+  padding: 10px; }
+
+/* 混合器 类似函数 @mixin*/
+.min {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+ul.palin {
+  list-style: none; }
+  ul.palin li {
+    list-style-image: none;
+    list-style-type: none; }
+
+/* 传参 */
+button {
+  background: linear-gradient(to left, #f00, #0ff); }
+
+a {
+  width: 15px;
+  height: 30px; }
+
+b {
+  width: 15px;
+  height: 30px; }
+
+span {
+  background: #852; }
+
+span {
+  background: #666; }
+
+span {
+  background: #999; }
+
+.error, .bigerror, b {
+  color: #f00; }
+
+.bigerror {
+  border-width: 3px; }
+
+a:hover, b {
+  color: #555; }
+
+b {
+  font-style: italic; }
+
+b {
+  font-style: italic; }
+
+.a1 .a2, .a4 .a2, .a1 .a3, .a4 .a3 {
+  color: #333; }
+
+.a3 {
+  font-style: italic; }
+
+.a4 {
+  font-style: italic; }
+
+@media print {
+  .one {
+    width: 20px; } }
+/* sass 函数 */
+/* 去除引号 */
+.test1 {
+  content: dsa; }
+
+/* 添加引号 */
+.test2 {
+  content: "dsa"; }
+
+.test3 {
+  content: "dsa"; }
+
+.test4 {
+  content: "a b"; }
+
+/* 百分比 */
+.test5 {
+  width: 20%;
+  height: 333.3333333333%; }
+
+/* join 分割 */
+a {
+  padding: 20px, 30px, 15px, 60px; }
+
+b {
+  padding: 20px 30px 15px 60px; }
+
+/* if */
+p {
+  border: 1px solid #333;
+  border: 1px dotted blue;
+  border: 1px dotted #0f0;
+  border: 1px dotted #0ff; }
+
+/* 循环 */
+/* for */
+.colorCon1 {
+  border: 1px solid #666; }
+
+.colorCon2 {
+  border: 2px solid #666; }
+
+.colorCon3 {
+  border: 3px solid #666; }
+
+.colorCon4 {
+  border: 4px solid #666; }
+
+.colorCon5 {
+  border: 5px solid #666; }
+
+.colorCon6 {
+  border: 6px solid #666; }
+
+.colorCon7 {
+  border: 7px solid #666; }
+
+.colorCon8 {
+  border: 8px solid #666; }
+
+.colorCon9 {
+  border: 9px solid #666; }
+
+.er {
+  width: 45; }
+
+/*while*/
+.item_6 {
+  width: 6px; }
+
+.item_5 {
+  width: 5px; }
+
+.item_4 {
+  width: 4px; }
+
+.item_3 {
+  width: 3px; }
+
+.item_2 {
+  width: 2px; }
+
+.item_1 {
+  width: 1px; }
+
+/*each*/
+#a {
+  background: url("../img/a.png"); }
+
+#b {
+  background: url("../img/b.png"); }
+
+#c {
+  background: url("../img/c.png"); }
+
+#d {
+  background: url("../img/d.png"); }
+
+#e {
+  background: url("../img/e.png"); }
+
+#f {
+  background: url("../img/f.png"); }
+
+/*# sourceMappingURL=style.css.map */
