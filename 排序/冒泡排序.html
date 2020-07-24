@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var arr = [1, 5, 6, 2, 4, 7, 8, 11, 10, 3, 9]
+
+			console.log(bubble(arr))
+
+			function bubble(arr) {
+				let n = 0;
+				while (n < arr.length - 1) {
+					for (var i = 0; i < arr.length - 1 - n; i++) {
+						if (arr[i] > arr[i + 1]) {
+							let a = arr[i],
+								b = arr[i + 1];
+							arr[i] = b;
+							arr[i + 1] = a;
+						}
+					}
+					n++
+				}
+				return arr
+			}
+
+		</script>
+	</body>
+</html>

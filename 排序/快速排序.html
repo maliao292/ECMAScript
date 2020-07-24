@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			// var arr = [12, 1, 5, 6, 4, 2, 7, 10, 11, 8, 3, 9]
+			var arr = [1,2];
+			// console.log(quick(arr))
+			quick(arr)
+
+			function quick(ary) {
+				if (ary.length <= 1) {
+					return ary
+				}
+				let middleIndex = Math.floor((ary.length-1) / 2)
+				let middleValue = ary.splice(middleIndex, 1)[0]
+				
+				let aryLeft = [];
+				let aryRight = [];
+				for (let i = 0; i < ary.length; i++) {
+					let item = ary[i]
+					item > middleValue ? aryRight.push(item) : aryLeft.push(item)
+				}
+			
+				console.log(aryLeft);
+				console.log(middleValue);
+				console.log(aryRight);
+				console.log('....');
+				return quick(aryLeft).concat(middleValue, quick(aryRight))
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>柯理化编程思想-预先处理的思想（闭包机制）</title>
+		<style type="text/css">
+			body {
+				width: 800px;
+				height: 80vh;
+				border: 1px solid #E0E0E0;
+			}
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//详见： https://www.bilibili.com/video/BV1aE411C7pt?p=27
+			function currying(fn, length) {
+				length = length || fn.length
+				return function(...args) {
+					console.log(args);
+					if (args.length >= length) {
+						return fn(...args)
+					}
+					return currying(fn.bind(null, ...args), length - args.length)
+				}
+			}
+
+			function add(n1, n2, n3) {
+				return n1 + n2 + n3
+			}
+			add = currying(add, 3);
+			console.log(add(1)(2)(3));
+		</script>
+	</body>
+</html>

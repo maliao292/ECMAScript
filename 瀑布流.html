@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#pbl {
+				position: relative;
+				width: 800px;
+				margin: 0 auto;
+			}
+
+			#pbl>div {
+				position: absolute;
+				width: 25%;
+				box-sizing: border-box;
+				padding: 0 5px 10px;
+			}
+
+			#pbl>div:nth-child(4n+1) {
+				left: 0;
+			}
+
+			#pbl>div:nth-child(4n+2) {
+				left: 25%;
+			}
+
+			#pbl>div:nth-child(4n+3) {
+				left: 50%;
+			}
+
+			#pbl>div:nth-child(4n) {
+				left: 75%;
+			}
+
+			#pbl>div>img {
+				width: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="pbl">
+			<div><img src="image/sc/p%20(1).jpg"></div>
+			<div><img src="image/sc/p%20(2).jpg"></div>
+			<div><img src="image/sc/p%20(3).jpg"></div>
+			<div><img src="image/sc/p%20(4).jpg"></div>
+			<div><img src="image/sc/p%20(5).jpg"></div>
+			<div><img src="image/sc/p%20(6).jpg"></div>
+			<div><img src="image/sc/p%20(7).jpg"></div>
+			<div><img src="image/sc/p%20(8).jpg"></div>
+			<div><img src="image/sc/p%20(9).jpg"></div>
+			<div><img src="image/sc/p%20(10).jpg"></div>
+			<div><img src="image/sc/p%20(11).jpg"></div>
+			<div><img src="image/sc/p%20(12).jpg"></div>
+			<div><img src="image/sc/p%20(13).jpg"></div>
+			<div><img src="image/sc/p%20(14).jpg"></div>
+			<div><img src="image/sc/p%20(15).jpg"></div>
+			<div><img src="image/sc/p%20(16).jpg"></div>
+			<div><img src="image/sc/p%20(17).jpg"></div>
+			<div><img src="image/sc/p%20(18).jpg"></div>
+			<div><img src="image/sc/p%20(19).jpg"></div>
+			<div><img src="image/sc/p%20(20).jpg"></div>
+			<div><img src="image/sc/p%20(21).jpg"></div>
+			<div><img src="image/sc/p%20(22).jpg"></div>
+			<div><img src="image/sc/p%20(23).jpg"></div>
+			<div><img src="image/sc/p%20(24).jpg"></div>
+			<div><img src="image/sc/p%20(25).jpg"></div>
+			<div><img src="image/sc/p%20(26).jpg"></div>
+			<div><img src="image/sc/p%20(27).jpg"></div>
+		</div>
+		<script src="JS-珠峰培训/JSONP/json/jquery-1.8.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				let top1 = [0];
+				let top2 = [0];
+				let top3 = [0];
+				let top4 = [0];
+
+				function plus(arr) {
+					let h = 0;
+					arr.forEach((v, i) => {
+						h += v
+					})
+					return h
+				}
+				// 容易出现高度差
+			/* 	$('#pbl div').each((i, v) => {
+					if (i % 4 === 0) {
+						$(v).animate({top:plus.call(null,top1)},100)
+						top1.push($(v).height())
+					} else if (i % 4 === 1) {
+						$(v).animate({top:plus.call(null,top2)},100)
+						top2.push($(v).height())
+					} else if (i % 4 === 2) {
+						$(v).animate({top:plus.call(null,top3)},100)
+						top3.push($(v).height())
+					} else if (i % 4 === 3) {
+						$(v).animate({top:plus.call(null,top4)},100)
+						top4.push($(v).height())
+					}
+				}) */
+				
+				$('#pbl div').each((i, v) => {
+					let maxHeight = Math.max.apply(null,[plus.call(null,top1),plus.call(null,top2),plus.call(null,top3),plus.call(null,top4)])
+					let minHeight = Math.min.apply(null,[plus.call(null,top1),plus.call(null,top2),plus.call(null,top3),plus.call(null,top4)])
+					if(maxHeight-minHeight>$(v).height()&&i>3){
+						if(minHeight===plus.call(null,top1)){
+							$(v).animate({top:plus.call(null,top1),left:0},100)
+							top1.push($(v).height())
+						}else if(minHeight===plus.call(null,top2)){
+							$(v).animate({top:plus.call(null,top2),left:'25%'},100)
+							top2.push($(v).height())
+						}else if(minHeight===plus.call(null,top3)){
+							$(v).animate({top:plus.call(null,top3),left:'50%'},100)
+							top3.push($(v).height())
+						}else if(minHeight===plus.call(null,top4)){
+							$(v).animate({top:plus.call(null,top4),left:'75%'},100)
+							top4.push($(v).height())
+						}
+						return
+					}
+					if (i % 4 === 0) {
+						$(v).animate({top:plus.call(null,top1)},100)
+						top1.push($(v).height())
+					} else if (i % 4 === 1) {
+						$(v).animate({top:plus.call(null,top2)},100)
+						top2.push($(v).height())
+					} else if (i % 4 === 2) {
+						$(v).animate({top:plus.call(null,top3)},100)
+						top3.push($(v).height())
+					} else if (i % 4 === 3) {
+						$(v).animate({top:plus.call(null,top4)},100)
+						top4.push($(v).height())
+					}
+				})
+
+			})
+		</script>
+	</body>
+</html>

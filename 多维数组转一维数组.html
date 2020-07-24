@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			let arr = [[1,2,2],[3,4,5,5],[6,7,,8,8,[12,12,12,13,[14,15,15]]],9]
+			let newArr = []
+			function getArr(arr){
+				arr.forEach((v,i)=>{
+					if(Array.isArray(v)){
+						getArr(v)
+					}else{
+						newArr.push(v)
+					}
+					
+				})
+			}
+			getArr(arr)
+			console.log([...new Set(newArr)])
+			console.log(Array.from(new Set(newArr)))
+		</script>
+	</body>
+</html>

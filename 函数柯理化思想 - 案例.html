@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>柯理化编程思想-预先处理的思想（闭包机制）</title>
+		<style type="text/css">
+			body {
+				width: 800px;
+				height: 80vh;
+				border: 1px solid #E0E0E0;
+			}
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//详见： https://www.bilibili.com/video/BV1aE411C7pt?p=26
+			+ function() {
+				function myBind(context = window, ...outerArgs) {
+					console.dir(myBind);
+					let _this = this
+					return function(...innerArg) {
+						_this.call(obj, ...outerArgs.concat(innerArg))
+					}
+				}
+				Function.prototype.myBind = myBind
+
+			}()
+
+			let obj = {
+				name: 'OBJ'
+			}
+
+			function fun(...arg) {
+				console.log(this, arg);
+			}
+
+			document.body.onclick = fun.myBind(obj, 100, 200)
+
+			// document.body.onclick = fun.bind(obj,100,200)
+
+			// document.body.onclick = function(ev) {
+			// 	fun.call(obj, 100, 200, ev)
+			// }
+		</script>
+	</body>
+</html>
