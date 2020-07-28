@@ -16,9 +16,9 @@
 		<script type="text/javascript">
 			//详见： https://www.bilibili.com/video/BV1aE411C7pt?p=27
 			function currying(fn, length) {
+				
 				length = length || fn.length
 				return function(...args) {
-					console.log(args);
 					if (args.length >= length) {
 						return fn(...args)
 					}
@@ -27,6 +27,7 @@
 			}
 
 			function add(n1, n2, n3) {
+				
 				return n1 + n2 + n3
 			}
 			add = currying(add, 3);
