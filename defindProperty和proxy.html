@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="spanName"></div>
+		<input id="inpName" />
+		<script type="text/javascript">
+			/*  defineProperty  */
+
+
+			let obj = {
+				name: 'Mario'
+			};
+			let newObj = JSON.parse(JSON.stringify(obj))
+			Object.defineProperty(obj, 'name', {
+				get() {
+					return newObj.name
+				},
+				set(val) {
+					if (val !== newObj.name)
+						newObj.name = val
+					observer()
+				}
+			})
+			obj.name = '马里奥'
+
+			function observer() {
+				spanName.innerHTML = obj.name
+				inpName.value = obj.name
+			}
+			setTimeout(() => {
+				obj.name = 'Mario'
+			}, 2000)
+
+			inpName.oninput = function() {
+				obj.name = this.value
+			}
+		</script>
+		<script type="text/javascript">
+			/* proxy */
+			let obj2 = {}
+			obj2 = new Proxy(obj, {
+				get(target, prop) {
+					console.log('GET');
+					return target[prop] + '...'
+				},
+				set(target, prop, value) {
+					console.log('SET');
+					target[prop] = value
+				}
+			})
+			console.log(obj2.name);
+			obj2.name = 'Mario'
+		</script>
+	</body>
+</html>
